@@ -1,172 +1,183 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1600px) {
 
-.mobile-menu-area {
+    /* topbar css */
+
+    .topbar-area::before {
+        width: 100%;
+    }
+
+    .topbar-btn {
+        display: none;
+    }
+
+    /* header area */
+    
+    .header-area::before {
+        width: 100%;
+    }
+
+    .header-munu ul li {
+        margin-left: 35px;
+    }
+
+    /* sticky nav */
+
+    .sticky-nav {
+        width: 100%;
+    }
+
+    /* feature area */
+
+    .feature-items {
+        margin-left: -100px;
+    }
+
+    /* about area */
+
+    .about-discribtion p {
+        margin: 24px 0 0px;
+    }
+
+    .about-text h4 {
+        font-size: 23px;
+    }
+
+    /* section title css */
+
+    .section-main-title h2 {
+        font-size: 38px;
+    }
+
+    /* service area */
+
+    .service-thumb img {
+        width: 85%;
+    }
+    
+    .service-title {
+        right: -69%;
+    }
+
+    /* pricing area */
+
+    .pricing-rate h3 {
+        font-size: 42px;
+    }
+
+    .pircing-btn a {
+        padding: 22px 20px 22px;
+    }
+
+    /* testimonial area */
+
+    .testi-single-box {
+        padding: 15px 15px 17px;
+    }
+
+    /* blog area */
+
+    .blog-title h4 a {
+        font-size: 20px;
+    }
+
+    .blog-bottom-title {
+        margin-right: 70px;
+    }
+
+
+/*==================================================
+ <-- Euildint Home Page Style Two Css-->
+===================================================*/
+
+/* header style two css */
+
+.header-munu.style-two ul li {
+    margin-left: 22px;
+}
+
+.header-call-section {
     display: none;
 }
 
-/* topbar area css */
-.thrown-topbar-area::before {
-    width: 240px;
+/* slider style two css */
+
+.slider-content.style-two {
+    width: 50%;
 }
 
-.topbar-info {
-    margin-left: 36px;
+.slider-social-menu {
+    top: 25%;
+    right: -85%;
 }
 
-/* header area css */
+/* feature area stylet two */
 
-.thrown-header-area::before {
-    width: 240px;
+.feature-items-box {
+    padding: 63px 20px 70px;
 }
 
-.thrown-menu {
-    text-align: right;
-    margin-right: -24px;
+.feature-text h4 a {
+    font-size: 22px;
 }
 
-.thrown-menu ul li {
-    margin-right: 28px;
+/* about area style two */
+
+.about-thumb.style-two img {
+    width: 100%;
 }
 
-.thrown-search-button {
-    margin-left: 82px;
+/* history area  */
+
+.history-content h4 a {
+    font-size: 23px;
 }
 
-.thrown-menu ul li:hover .home-menu {
+.history-content p {
+    font-size: 17px;
+}
+
+/* service area style two */
+
+.service-items-box {
+    padding: 29px 0px 29px 14px;
+}
+
+.service-items-content p {
+    margin: 12px 0 50px;
+}
+
+.service-items-thumb {
+    left: 0px;
+}
+
+.service-items-icon {
+    top: -37px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
-/* slider area */
+/* blog area style two */
 
-.slider-content {
-    width: 73%;
-    left: 150px;
+.blog-content.style-two {
+    padding: 0px 16px 24px;
 }
 
-.slider-shape {
-    left: -33px;
+.blog-meta.style-two {
+    width: 357px;
+    left: -17px;
 }
 
-.slider-shape2 {
-    top: 65%;
-}
 
-.slider-box {
-    top: 60%;
-}
-
-/* about area */
-
-.about-thumb {
-    top: 60px;
-}
-
-.about-sub-title h4 {
-    margin-bottom: 0px;
-}
-
-.about-main-title {
-    margin-bottom: 10px;
-}
-
-.about-area.barfiller {
-    width: 100%;
-}
-
-/* contact us area */
-
-.contact-us-area {
-    background-position: center;
-}
-
-/* service area */
-
-.service-single-box {
-    padding: 67px 20px 64px;
-}
-
-/* team area */
-
-.team-shape1 {
-    z-index: -1;
-}
-
-.team-shape2 {
-    z-index: -1;
-}
-
-/* counter area */
-
-.counter-shape {
-    left: 28%;
-}
-
-/* testimonial area css */
-
-.testi-discription p {
-    margin: 8px 0 0;
-}
-
-.testi-rating {
-    margin-top: -10px;
-}
-
-/* blgo area css */
-
-.blog-single-box {
-    padding: 43px 26px 46px;
-}
-
-/*===============================================================
-<-- Thrown All Section Title Css-->
-=================================================================*/
-
-.section-main-title h2 {
-    font-size: 44px;
-}
-
-/*===============================================================
-<-- Thrown Home Page two Css-->
-=================================================================*/
-
-/* topbar area css */
-
-.topbar-info.style-two {
-    margin-left: 5px;
-}
-
-/* header area css */
-
-.thrown-menu.style-two {
-    margin-left: -42px;
-}
-
-.thrown-search-button.style-two {
-    margin-left: -50px;
-}
-
-/* slider area */
-
-.slider-area {
-    background-position: center center;
-}
-
-.slider-area.two {
-    background-position: center center;
-}
-
-/* about area */
-
-.about-counter {
-    left: 15%;
-}
+/*==================================================
+ <-- Euildint Home Page Style Three Css-->
+===================================================*/
 
 /* service area style two */
 
 .service-items-box-two {
+    padding: 22px 15px 20px;
     display: inherit;
 }
 
@@ -174,182 +185,46 @@
     width: 100%;
 }
 
-/* choose area */
+/* faq area css */
 
-.choose-area {
-    padding: 115px 0 150px;
+.faq-content {
+    padding: 58px 50px 38px;
 }
 
-.choose-content p {
-    width: 95%;
+.accordion li a {
+    font-size: 16px;
 }
 
-.choose-contact {
-    width: 100%;
-    height: 152px;
-    padding: 50px 0px 0 65px;
+.accordion li p {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px 38px 9px;
 }
 
 /* work process area */
 
-.work-process-single-box {
-    padding: 0px 40px 0;
+.work-process-shape {
+    position: absolute;
+    top: -5px;
 }
 
-/* pricing area */
-
-.pricing-single-box {
-    padding: 50px 66px 48px;
-}
-
-/* testimonial style two */
-
-.testimonial-shape {
-    left: 17px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Three Css-->
-=================================================================*/
-
-/* header style three */
-
-.thrown-header-area.style-three {
-    margin-bottom: 0;
-}
-
-.thrown-header-area.style-three::before {
+.work-process-shape img {
     width: 100%;
 }
 
-.thrown-menu.style-three {
-    margin-right: 0;
+.work-process-content {
+    margin-top: 40px;
 }
 
-/* slider area */
+/* testimoial area style two */
 
-section.banner-section.style-three .banner-carousel .slide-item {
-    height: 900px;
+.testi-items-content {
+    width: 348px;
 }
 
-/* about style three */
-
-.section-main-title.about3 h2 {
-    font-size: 42px;
-}
-
-.about-shape-three {
-    bottom: -40px;
-}
-
-/* sucsess area */
-
-.sucsees-single-box {
-    padding: 68px 13px 65px;
-}
-
-.sucsess-counter {
-    width: 90px;
-    height: 90px;
-    padding: 21px 0 0;
-}
-
-.sucsess-content {
-    margin-left: 10px;
-}
-
-.sucsess-numbar h4 {
-    font-size: 20px;
-}
-
-.sucsess-numbar span {
-    font-size: 20px;
-}
-
-.sucsees-item-box {
-    padding: 66px 20px 50px;
-}
-
-/* faq area */
-
-.faq-thumb img {
-    width: 100%;
-}
-
-/* blog area */
-
-.blog-bottom-title {
-    margin-right: 82px;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Four Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-content.four {
-    left: 45%;
-}
-
-.slider-four-thumb img {
-    width: 100%;
-    margin-top: 83px;
-    margin-left: -54px;
-}
-
-/* project area */
-
-.project-items-thumb img {
-    width: 100%;
-}
-
-/* blog area */
-
-.blog-title.style-two h4 a {
-    font-size: 21px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Five Css-->
-=================================================================*/
-
-/* header area */
-
-.thrown-menu.style-five {
-    margin-right: 24px;
-}
-
-/* slider area */
-
-.slider-content.style-five {
-    width: 68%;
-}
-
-.thrown-btn.slider.bottom {
-    right: 100px;
-}
-
-/* about counter */
-
-.about-counter-five {
-    height: 350px;
-    padding: 15px 0 0;
-}
-
-.counter-five-content {
-    margin-bottom: 33px;
-}
-
-/* team area */
-
-.team-five-thumb img {
-    width: 100%;
-}
 
 /*==================================================
- <-- Thrown All Inner Page  Css-->
+ <-- Euildint All Inner Page  Css-->
 ===================================================*/
 
 /* service details */
@@ -404,640 +279,484 @@ section.banner-section.style-three .banner-carousel .slide-item {
 
 
 
-
-
 }
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-.mobile-menu-area {
-    display: none;
-}
+    /* topbar css */
 
-/* topbar area css */
-.thrown-topbar-area::before {
-    display: none;
-}
+    .topbar-area::before {
+        width: 100%;
+    }
 
-.topbar-info {
-    margin-left: -145px;
-}
+    .topbar-discription p {
+        font-size: 12px;
+    }
 
-/* header area css */
+    .topbar-btn {
+        display: none;
+    }
 
-.thrown-header-area {
-    padding: 30px 0;
-}
-
-.thrown-header-area::before {
-    width: 223px;
-}
-
-.header-logo {
-    margin-top: 0;
-}
-
-.thrown-menu {
-    display: none;
-}
-
-.thrown-search-button{
-    position: absolute;
-    right: 120px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.sidebar-menu {
-    display: inherit;
-}
-
-/* slider area */
-
-.slider-content {
-    width: 80%;
-    left: 150px;
-}
-
-.slider-shape {
-    left: -33px;
-}
-
-.slider-shape2 {
-    top: 67%;
-}
-
-.slider-box {
-    top: 64%;
-}
-
-/* about area */
-
-.about-thumb {
-    top: 60px;
-}
-
-.about-shape {
-    bottom: -146px;
-    right: -36px;
-}
-
-.about-shape {
-    width: 100%;
-}
-
-.about-sub-title h4 {
-    margin-bottom: 0px;
-}
-
-.about-main-title {
-    margin-bottom: 10px;
-}
-
-.about-main-title h2 {
-    font-size: 39px;
-    line-height: 55px;
-}
-
-.about-discribtion p {
-    margin: 0 0 25px;
-}
-
-.about-single-box {
-    padding: 30px 35px 25px;
-}
-
-/* contact us area */
-
-.contact-us-area {
-    background-position: center;
-}
-
-/* service area */
-
-.service-single-box {
-    padding: 67px 20px 64px;
-}
-
-/* protfolio area */
-
-.portfolio-content {
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0px 20px 0;
-}
-
-.protfolio-title {
-    top: 50%;
-    position: absolute;
-    transform: translateY(-50%);
-}
-
-/* team area */
-
-.team-shape1 {
-    z-index: -1;
-}
-
-.team-shape2 {
-    z-index: -1;
-}
-
-/* counter area */
-
-.counter-shape {
-    display: none;
-}
-
-/* testimonial area css */
-
-.testi-single-box {
-    margin: 0 100px 0;
-}
-
-.testi-discription p {
-    margin: 25px 0 17px;
-}
-
-.testi-rating {
-    margin-top: 0px;
-}
-
-/* blgo area css */
-
-.blog-single-box {
-    padding: 43px 10px 46px;
-}
-
-.blog-title h4 a {
-    font-size: 22px;
-}
-
-.blog-bottom-title {
-    margin-right: 58px;
-}
-
-/*===============================================================
-    <-- Thrown All Section Title Css-->
-=================================================================*/
-
-.section-main-title h2 {
-    font-size: 44px;
-}
+    /* header area */
     
-/*===============================================================
-    <-- Thrown Home Page two Css-->
-=================================================================*/
-    
-/* topbar area css */
+    .header-area::before {
+        width: 100%;
+    }
 
-.topbar-info.style-two {
-    margin-left: 5px;
+    .header-munu ul li {
+        margin-left: 18px;
+    }
+
+    .header-munu ul li a {
+        font-size: 16px;
+    }
+
+    .header-social ul li::before {
+        right: -18px;
+    }
+
+    /* sticky nav */
+
+    .sticky-nav {
+        width: 100%;
+    }
+
+    /* slider area css */
+
+    .slider-main-title h1 {
+        font-size: 50px;
+    }
+
+    .slider-thumb {
+        margin-left: -170px;
+    }
+
+    /* feature area */
+
+    .feature-items {
+        margin-left: -164px;
+    }
+
+    /* about area */
+
+    .about-thumb img {
+        width: 100%;
+    }
+
+    .about-shape {
+        display: none;
+    }
+
+    .about-discribtion p {
+        margin: 24px 0 0px;
+    }
+
+    .about-text h4 {
+        font-size: 18px;
+    }
+
+    .about-area .process-ber-plugin {
+        margin-bottom: 30px;
+    }
+
+    .about-single-box {
+        margin-bottom: 12px;
+    }
+
+    /* section title css */
+
+    .section-main-title h2 {
+        font-size: 31px;
+        line-height: 34px;
+    }
+
+    /* contact section */
+
+    .contact-thumb {
+        margin-left: -160px;
+    }
+
+    .contact-shape {
+        bottom: 63%;
+        left: 67px;
+    }
+
+    /* service area */
+
+    .service-thumb img {
+        width: 85%;
+    }
+    
+    .service-title {
+        right: -74%;
+    }
+
+    .service-content {
+        bottom: 40px;
+    }
+
+    /* pricing area */
+
+    .pricing-single-box {
+        padding: 50px 25px 0;
+    }
+
+    .pricing-rate h3 {
+        font-size: 42px;
+    }
+
+    .pircing-btn a {
+        padding: 22px 20px 22px;
+    }
+
+    /* project area */
+
+    .project-thumb img {
+        width: 100%;
+    }
+
+    .project-content {
+        width: 100%;
+    }
+
+    /* testimonial area */
+
+    .testi-single-box {
+        padding: 15px 10px 17px;
+    }
+
+    .testi-items-box::before {
+        left: -10px;
+    }
+
+    .testi-items-box::after {
+        right: -10px;
+        top: -25px;
+    }
+
+    .testi-title h4 {
+        font-size: 20px;
+    }
+
+    .testi-icon-thumb img {
+        width: 74%;
+    }
+
+    .testi-icon-thumb {
+        right: -9px;
+    }
+
+    .testi-discription p {
+        font-size: 13px;
+    }
+
+    /* blog area */
+
+    .blog-single-box {
+        padding: 26px 12px 48px;
+    }
+
+    .blog-title h4 a {
+        font-size: 20px;
+    }
+
+    .blog-discription p {
+        font-size: 16px;
+    }
+
+    .blog-bottom-title {
+        margin-right: 46px;
+    }
+
+    /* footer area css */
+
+    .footer-wiget-text p {
+        font-size: 14px;
+    }
+
+    .footer-wiget-menu ul li a {
+        font-size: 14px;
+    }
+
+    .copyright-text p {
+        opacity: 0.800;
+        font-size: 16px;
+    }
+
+    .footer-condition ul li a {
+        font-size: 16px;
+    }
+
+
+/*==================================================
+ <-- Euildint Home Page Style Two Css-->
+===================================================*/
+
+/* topbar css */
+
+.topbar-area.style-two .container-fluid.p-90 {
+    padding: 0 25px;
 }
 
-/* header area css */
+/* header style two css */
 
-.thrown-menu.style-two {
+.header-area.style-two .container-fluid.p-90 {
+    padding: 0 25px;
+}
+
+.header-munu.style-two ul li {
+    margin-left: 18px;
+}
+
+.header-munu.style-two ul li a {
+    font-size: 14px;
+}
+
+.header-call-section {
     display: none;
 }
 
-.thrown-search-button.style-two {
-    position: absolute;
-    right: 120px;
-    top: 50%;
-    transform: translateY(-50%);
+/* slider style two css */
+
+.slider-content.style-two {
+    width: 50%;
 }
 
-/* slider area */
-
-.slider-area {
-    background-position: center center;
+.slider-social-menu {   
+    display: none;
 }
 
-.slider-area.two {
-    background-position: center center;
+/* feature area stylet two */
+
+.feature-items-box {
+    padding: 45px 15px 50px;
 }
 
-/* about area */
-
-.about-counter {
-    left: 9%;
+.feature-text h4 a {
+    font-size: 18px;
 }
 
-/* contact us area */
-
-.section-main-title.contact h2 {
-    font-size: 41px;
+.feature-text a {
+    font-size: 16px;
 }
 
-.contact-discription p {
+/* about area style two */
+
+.about-thumb.style-two img {
     width: 100%;
+}
+
+/* history area  */
+
+.history-single-box {
+    padding: 37px 13px 51px;
+}
+
+.history-content h4 a {
+    font-size: 23px;
+}
+
+.history-content p {
+    font-size: 17px;
+}
+
+.history-items-content {
+    padding: 11px 12px 21px;
+}
+
+.history-text h4 a {
+    font-size: 18px;
+}
+
+.counter-area {
+    padding: 65px 12px 98px;
+}
+
+.counter-numbar h4 {
+    color: #FFF;
+    font-size: 50px;
 }
 
 /* service area style two */
 
-.service-area.style-two {
-    padding: 105px 0 90px;
+.service-items-box {
+    padding: 29px 20px 29px 14px;
+    display: inherit;
 }
 
+.service-items-content p {
+    margin: 12px 0 50px;
+}
+
+.service-items-thumb {
+    left: 0px;
+}
+
+.service-items-thumb img {
+    width: 100%;
+}
+
+.service-items-icon {
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.service-items-icon img {
+    width: auto;
+}
+
+/* team area css */
+
+.team-main-icon {
+    right: 0px;
+}
+
+.team-items-box:hover .team-icon {
+    right: 0;
+}
+
+.team-content {
+    padding: 19px 10px 27px;
+}
+
+.team-content h4 a {
+    font-size: 22px;
+}
+
+/* blog area style two */
+
+.blog-content.style-two {
+    padding: 0px 16px 24px;
+}
+
+.blog-meta.style-two {
+    width: 298px;
+    left: -17px;
+}
+
+.blog-meta-date {
+    margin-right: 5px;
+}
+
+.blog-meta span {
+    font-size: 13px;
+}
+
+.blog-title.style-two h4 a {
+    font-size: 18px;
+}
+
+
+/*==================================================
+ <-- Euildint Home Page Style Three Css-->
+===================================================*/
+
+.topbar-area.style-three .container-fluid.p-90 {
+    padding: 0 25px;
+}
+
+/* slider area */
+
+.slider-content.style-two.three {
+    left: 30px;
+}
+
+/* about area style three */
+
+.about-list {
+    margin-top: 25px;
+}
+
+/* service area style two */
+
 .service-items-box-two {
-    margin-bottom: 30px;
+    padding: 22px 15px 20px;
+    display: inherit;
 }
 
 .service-icon-thumb {
-    margin-top: 17px;
+    margin-right: 7px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin-top: 13px;
+}
+
+.service-items-title h4 a {
+    font-size: 18px;
 }
 
 .service-items-content-two p {
-    margin: 10px 0 22px;
+    font-size: 13px;
 }
 
 .service-items-thumb-two img {
     width: 100%;
 }
 
-/* choose area */
+/* faq area css */
 
-.choose-area {
-    padding: 115px 0 150px;
+.faq-content {
+    padding: 58px 14px 38px;
 }
 
-.choose-content p {
-    width: 95%;
+.accordion li a {
+    font-size: 16px;
 }
 
-.choose-contact {
-    width: 100%;
-    height: 152px;
-    padding: 50px 0px 0 65px;
+.accordion li p {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px 38px 9px;
+}
+
+.faq-single-box {
+    padding: 73px 26px 60px;
 }
 
 /* work process area */
 
 .work-process-single-box {
-    padding: 0px 15px 0;
+    padding: 0px 38px 0;
 }
 
-/* pricing area */
-
-.pricing-area {
-    padding: 115px 0 0px;
-}
-
-.pricing-single-box {
-    padding: 50px 46px 48px;
-}
-
-/* team area */
-
-.team-area {
-    padding: 110px 0 90px;
-}
-
-.section-main-title.team2 h2 {
-    font-size: 37px;
-    line-height: 50px;
-}
-
-.team-discription {
-    margin-left: 117px;
-}
-
-.team-items-box {
-    margin-bottom: 30px;
-}
-
-.team-item-thumb img {
-    width: 100%;
-}
-
-/* testimonial style two */
-
-.testimonial-shape {
+.work-process-single-box::before{
     display: none;
 }
 
-.testimonial-title {
-    position: relative;
-    top: -66px;
-    left: 16px;
+.work-process-shape {
+    top: -36px;
+    left: -33px;
 }
 
-.testimonial-title h4 {
-    display: block;
-    line-height: 30px;
+.work-process-number {
+    top: -38px;
+    right: -48px;
 }
 
-/* contact area three */
+/* call do area */
 
-.contact-icon {
-    margin-right: 4px;
+.call-do-title h2 {
+    font-size: 42px;
 }
 
-.contact-content h3 {
-    font-size: 18px;
-    line-height: 25px;
+
+/* testimoial area style two */
+
+.testi-itmes-box {
+    padding: 0 10px 52px;
 }
 
-.contact-box {
-    padding: 63px 35px 82px;
+.testi-items-content {
+    width: 296px;
 }
-
-/* blog area */
-
-.blog-title.style-two h4 a {
-    font-size: 20px;
-}
-
-    
-/*===============================================================
-    <-- Thrown Home Page Three Css-->
-=================================================================*/
-
-/* header style three */
-
-.thrown-header-area.style-three {
-    margin-bottom: 0;
-}
-
-.thrown-header-area.style-three::before {
-    width: 100%;
-}
-
-.thrown-menu.style-three {
-    display: none;
-}
-
-.thrown-search-button.style-three {
-    position: absolute;
-    right: 120px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* slider area */
-
-section.banner-section.style-three .banner-carousel .slide-item {
-    height: 900px;
-}
-
-.slider-content.style-three {
-    left: 32px;
-}
-
-/* about style three */
-
-.about-area.style-three {
-    padding: 55px 0 110px;
-}
-
-.about-thumb.style-three img {
-    width: 118%;
-}
-
-.section-main-title.about3 h2 {
-    font-size: 35px;
-    line-height: 50px;
-}
-
-.about-shape-three {
-    bottom: -47px;
-    right: 62px;
-}
-
-.about-area.style-three .barfiller {
-    width: 100%;
-}
-
-/* service style three */
-
-.service-single-box.style-three {
-    padding: 70px 10px 38px;
-}
-
-.service-title h4 a {
-    font-size: 22px;
-}
-
-.thrown-btn.service a {
-    padding: 8px 18px;
-    font-size: 16px;
-}
-
-/* sucsess area */
-
-.sucsees-single-box {
-    padding: 26px 13px 27px;
-    text-align: center;
-}
-
-.sucsess-counter {
-    width: 90px;
-    height: 90px;
-    padding: 21px 0 0;
-}
-
-.sucsess-counter {
-    width: 90px;
-    height: 90px;
-    padding: 21px 0 0;
-    margin-bottom: 9px;
-}
-
-.sucsess-content {
-    margin-left: 10px;
-}
-
-.sucsess-numbar h4 {
-    font-size: 20px;
-}
-
-.sucsess-numbar span {
-    font-size: 20px;
-}
-
-.sucsees-item-box {
-    padding: 66px 20px 50px;
-}
-
-/* team area style three */
-
-.team-items-box:hover .team-sub-icon {
-    bottom: 64%;
-}
-
-/* faq area */
-
-.faq-thumb {
-    top: 138px;
-}
-
-.faq-thumb img {
-    width: 100%;
-}
-
-/* blog area */
-
-.blog-bottom-title {
-    margin-right: 53px;
-}
-    
-    
-/*===============================================================
-<-- Thrown Home Page Four Css-->
-=================================================================*/
-
-/* topbar area */
-
-.sidebar-info {
-    display: none;
-}
-
-/* header area */
-
-.thrown-header-area.style-two {
-    margin-bottom: -164px;;
-}
-    
-/* slider area */
-
-.slider-area.style-four {
-    height: 900px;
-}
-
-.slider-content.four {
-    width: 100%;
-    text-align: center;
-    left: 0;
-    top: 55%;
-}
-
-.slider-four-thumb img {
-    display: none;
-}
-
-/* about style four */
-
-.about-thumb.four img {
-    width: 100%;
-}
-
-.about-counter.four {
-    left: 0;
-    width: 100%
-}
-
-/* service style four*/
-
-.service-four-title h4 a {
-    font-size: 22px;
-}
-
-/* project area */
-
-.project-items-thumb img {
-    width: 100%;
-}
-
-/* like us area */
-
-.like-us-content p {
-    width: 100%;
-}
-
-/* blog area */
-
-.blog-title.style-two h4 a {
-    font-size: 20px;
-}
-
-    
-/*===============================================================
-<-- Thrown Home Page Five Css-->
-=================================================================*/
-
-/* topbar area */
-
-.topbar-info.style-five {
-    margin-left: 0;
-}
-    
-/* header area */
-
-.thrown-menu.style-five {
-    display: none;
-}
-
-.thrown-search-button.style-five {
-    position: absolute;
-    right: 120px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* slider area */
-
-.slider-content.style-five {
-    width: 78%;
-    left: 34px;
-}
-
-.slider-discripton.inner p {
-    width: 62%;
-}
-
-.slider-bottom-shape {
-    display: none;
-}
-
-.thrown-btn.slider.bottom {
-    right: 5%;
-}
-
-/* conversion area */
-
-.conversion-area .barfiller {
-    width: 100%;
-}
-
-/* about counter */
-
-.about-counter-five {
-    height: 300px;
-    padding: 10px 0 0;
-    width: 250px;
-}
-
-.counter-five-content {
-    margin-bottom: 25px;
-}
-
-.counter-five-numbar h4 {
-    font-size: 30px;
-}
-
-/* team area */
-
-.team-five-thumb img {
-    width: 100%;
-}
-
-/* testimonila area */
-
-.testi-five-box {
-    padding: 35px 15px 30px;
-}
-
-.testi-five-discription p {
-    width: 100%;
-}
-
 
 /*==================================================
- <-- Thrown All Inner Page  Css-->
+ <-- Euildint All Inner Page  Css-->
 ===================================================*/
 
 /* service details */
@@ -1131,13 +850,12 @@ section.banner-section.style-three .banner-carousel .slide-item {
 /* team details area */
 
 .team-details-author-experience ul li .value {
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .team-details-area .process-ber-plugin {
     display: none;
 }
-
 
 
 }
@@ -1147,647 +865,410 @@ section.banner-section.style-three .banner-carousel .slide-item {
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
-.mobile-menu-area {
-    display: inherit;
-}
+    /* topbar css */
 
-.sidebar-menu {
-    display: inherit;
-}
+    .topbar-area {
+        display: none !important;
+    }
 
-/* topbar area */
+    /* header area */
 
-.thrown-topbar-area {
-    display: none;
-}
+    .header-area {
+        display: none;
+    }
 
-/* header area */
+    /* slider area */
 
-.thrown-header-area {
-    display: none;
-}
+    .slider-area {
+        display: block !important;
+    }
 
-/* slider area */
+    .slider-content {
+        padding: 144px 0 0;
+    }
 
-.banner-carousel .slide-item .image-layer {
-    background-position: none;
-    background-size: cover;
-}
+    .slider-thumb {
+        display: none;
+    }
 
-.slider-content {
-    width: 100%;
-}
+    /* feature area */
 
-.slider-main-title h1 {
-    font-size: 60px;
-}
+    .feature-area {
+        padding: 0 0 76px;
+    }
 
-.banner-section .owl-nav {
-    display: none;
-}
+    .feature-items {
+        margin-left: 65px;
+    }
 
-.slider-shape {
-    display: none;
-}
+    /* about area */
 
-.slider-box {
-    display: none;
-}
+    .about-area {
+        padding: 0 0 66px;
+    }
 
-.slider-shape2 {
-    display: none;
-}
+    .about-thumb {
+        margin-bottom: 50px;
+    }
 
-/* about area */
+    .about-discribtion p {
+        margin: 38px 0 0px;
+    }
 
-.about-area {
-    padding: 70px 0 74px;
-}
+    /* contact area */
 
-.about-thumb {
-    text-align: center;
-    margin-bottom: 80px;
-}
+    .contact-area {
+        padding: 42px 0 48px;
+    }
 
-.about-thumb img {
-    width: 75%;
-}
+    .contact-thumb {
+        display: none;
+    }
 
-.about-shape {
-    right: 55%;
-}
+    /* service area*/
 
-.about-shape img {
-    width: 100%;
-}
+    .service-area {
+        padding: 60px 0 40px;
+    }
 
-.about-sub-title h4 {
-    margin-bottom: 0px;
-}
+    .service-single-box {
+        margin-bottom: 30px;
+    }
 
-.about-main-title {
-    margin-bottom: 10px;
-}
+    .service-thumb img {
+        width: 80%;
+    }
 
-.about-discribtion p {
-    width: 80%;
-}
+    .service-title {
+        right: -65%;
+    }
 
+    /* pricing area */
 
-/* section title */
+    .pricing-area {
+        padding: 62px 0 28px;
+    }
 
-.section-main-title h2 {
-    font-size: 45px;
-    line-height: 60px;
-}
+    .pricing-single-box {
+        padding: 50px 30px 0;
+        margin-bottom: 30px;
+    }
 
+    /* faq area */
 
-/* contact us area */
+    .faq-area {
+        padding: 0 0 46px;
+    }
 
-.contact-us-items {
-    text-align: left;
-    margin-left: -63px;
-}
+    /* project area */
 
-.contact-us-content {
-    width: 83%;
-    margin: auto;
-}
-
-.contact-us-items.two {
-    display: none;
-}
-
-/* service area */
-
-.service-area {
-    padding: 67px 0 39px;
-}
-
-.service-single-box {
-    padding: 67px 35px 64px;
-}
-
-/* project area */
-
-.project-area {
-    padding: 66px 0 195px;
-}
-
-.portfolio-content {
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    padding: 0 10px 0;
-}
-
-.protfolio-title {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.portfolio-content h3 a {
-    font-size: 20px;
-}
-
-/* team area */
-
-.team-area {
-    padding: 68px 0 72px;
-    position: relative;
-}
-
-.team-shape1 {
-    display: none;
-}
-
-.team-shape2 {
-    display: none;
-}
-
-/* faq area */
-
-.faq-area {
-    padding: 94px 0 70px;
-}
-
-.tab_container {
-    margin-top: 0;
-}
-
-/* sales area */
-
-.sales-report-area {
-    padding: 60px 0 74px;
-}
-
-/* counter area */
-
-.counter-area {
-    padding: 61px 0 48px;
-}
-
-.counter-shape {
-    display: none;
-}
-
-.counter-content h5 {
-    font-size: 17px;
-}
-
-.counter-content p {
-    font-size: 14px;
-}
-
-
-/* testimonial area */
-
-.testimonial-area {
-    padding: 66px 0 64px;
-}
-
-/* blog area */
-
-.blog-area {
-    padding: 67px 0 44px;
-}
-
-.blog-single-box {
-    padding: 43px 15px 46px;
-    margin-bottom: 30px;
-}
-
-.blog-bottom-title {
-    margin-right: 85px;
-}
-
-.blog-title.style-two.inner {
-    margin-bottom: 20px;
-}
-
-/* footer area */
-
-.footer-area {
-    padding: 73px 0 0px;
-}
-
-.footer-wiget {
-    margin-bottom: 30px;
-}
-
-.copyright-text {
-    text-align: center;
-}
-
-.footer-condition {
-    text-align: center;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Two Css-->
-=================================================================*/
-
-.about-area.style-two {
-    padding: 72px 0 27px;
-}
-
-.about-counter {
-    left: 27%;
-}
-
-/* contact area */
-
-.contact-area {
-    padding: 60px 0 78px;
-}
-
-.section-title.contact {
-    text-align: center;
-}
-
-.contact-discription p {
-    width: 100%;
-}
-
-.contact-thumb {
-    display: none;
-}
-
-/* service area style two */
-
-.service-area.style-two {
-    padding: 66px 0 44px;
-}
-
-.service-items-box-two {
-    margin-bottom: 30px;
-}
-
-
-/* choose us area */
-
-.choose-area {
-    padding: 67px 0 250px;
-}
-
-.choose-area::after {
-    width: 100%;
-}
-
-.choose-content p {
-    width: 83%;
-}
-
-.single-video.style-two {
-    display: none;
-}
-
-.choose-contact {
-    width: 100%;
-    padding: 36px 45px 0;
-}
-
-.subscribe-title {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-/* work process area */
-
-.work-process-area {
-    padding: 66px 0 14px;
-}
-
-.work-process-single-box {
-    padding: 0px 30px 0;
-    margin-bottom: 20px;
-}
-
-/* pricing area */
-
-.pricing-area {
-    padding: 66px 0 0px;
-}
-
-.pricing-single-box {
-    padding: 50px 58px 48px;
-    margin-bottom: 30px;
-}
-
-
-/* team area css */
-
-.team-area.style-two {
-    padding: 63px 0 35px;
-}
-
-.section-main-title.team2 {
-    margin-bottom: 20px;
-}
-
-.team-discription {
-    margin-left: 0;
-    width: 66%;
-    margin-bottom: 48px;
-}
-
-.team-items-box {
-    margin-bottom: 30px;
-}
-
-/* testimonial area */
-
-.testimonial-item-thumb {
-    margin-right: 25px;
-}
-
-/* testimonial area */
-
-.testimonial-area.style-two {
-    padding: 72px 0 77px;
-}
-
-.testimonial-discription p {
-    font-size: 22px;
-}
-
-.testimonial-shape {
-    display: none;
-}
-
-.testimonial-title h4 {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.testimonial-title {
-    position: relative;
-    top: -57px;
-    left: 8px;
-}
-
-.testimonial-area.style-two .owl-nav {
-    right: 50%;
-    top: 85%;
-}
-
-/* contact area styel three */
-
-.contact-area-three {
-    padding: 63px 0 73px;
-}
-
-.contact-box {
-    margin-top: 40px;
-}
-
-/* blog style two */
-
-.blog-title.style-two h4 a {
-    font-size: 20px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Three Css-->
-=================================================================*/
-
-/* slider area */
-
-section.banner-section.style-three .banner-carousel .slide-item {
-    height: 800px;
-}
-
-.slider-content.style-three {
-    top: 44%;
-}
-
-/* about style three */
-
-.about-area.style-three {
-    padding: 0px 0 73px;
-}
-
-.about-area.style-three.dark {
-    padding: 81px 0 73px;
-}
-
-
-/* contact us style three */
-
-.contact-us-area.style-three {
-    padding: 70px 0 63px;
-}
-
-.contact-us-area.style-three::before {
-   display: none;
-}
-
-.contact-us-list {
-    text-align: left;
-    margin-left: 77px;
-    margin-bottom: 40px;
-}
-
-.contact-us-items-box {
-    margin-left: 20px;
-}
-
-/* service style three */
-
-.service-single-box.style-three {
-    padding: 70px 17px 38px;
-}
-
-/* sucsess area */
-
-.sucsees-single-box {
-    padding: 68px 25px 65px;
-    margin-bottom: 30px;
-}
-
-.sucsess-counter {
-    margin-bottom: 10px;
-}
-
-/* team area style three */
-
-.team-area.style-three {
-    padding: 66px 0 42px;
-}
-
-/* faq area */
-
-.faq-thumb {
-    display: none;
-}
-
-/* testimonila style three */
-
-.testimonial-area.style-three {
-    padding: 68px 0 65px;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Four Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-area.style-four {
-    height: 850px;
-}
-
-.slider-four-thumb {
-    display: none;
-}
-
-.slider-content.four {
-    left: 44px;
-}
-
-/* about style four */
-
-.about-area.style-four {
-    padding: 64px 0 0px;
-}
-
-.about-thumb.four {
-    text-align: left;
-}
-
-/* project style four */
-
-.project-area.style-four {
-    padding: 68px 0 44px;
-}
-
-.project-items-thumb img {
-    width: 100%;
-}
-
-/* like us area */
-
-.like-us-area {
-    padding: 68px 0 34px;
-}
-
-.like-us-single-box {
-    margin-bottom: 30px;
-}
-
-/* blog area style four */
-
-.blog-area.style-four {
-    padding: 68px 0 50px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Five Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-content.style-five {
-    width: 100%;
-    top: 50%;
-}
-
-.slider-discripton.inner p {
-    width: 80%;
-}
-
-.slider-bottom {
-    display: none;
-}
-
-/* service area style five */
-
-.service-area.style-five {
-    padding: 67px 0 68px;
-}
-
-.service-disctription span {
-    font-size: 17px;
-}
-
-/* conversion area */
-
-.conversion-area {
-    padding: 69px 0 0;
-}
-
-.conversion-text {
-    padding: 73px 57px 24px;
-}
-
-.call-do-action-area.style-five {
-    height: 730px;
-    padding: 324px 0 0;
-}
-
-/* about style five */
-
-.about-area.style-five {
-    padding: 73px 0 75px;
-}
-
-/* team area style five */
-
-.team-area.style-five {
-    padding: 68px 0 0;
-}
-
-.team-area.style-five.dark {
-    padding: 68px 0 43px;
-}
-
-.team-items-five {
-    margin-bottom: 30px;
-}
-
-.team-five-thumb img {
-    width: 100%;
-}
-
-/* brand area style five */
-
-.brand-area.style-five {
-    padding: 25px 0 55px;
-}
-
-/* working project area */
-
-.working-content {
-    left: 15px;
-}
-
-/* testimonial area style five */
-
-.testimonial-area.style-five {
-    padding: 68px 0 73px;
-}
-
-.testi-item-five {
-    display: none;
-} 
+    .project-area {
+        padding: 62px 0 20px;
+    }
+    
+    .project-thumb img {
+        width: 100%;
+    }
+
+    .project-content {
+        width: 100%;
+        padding: 0 10px 0;
+    }
+
+    /* testimonial area */
+
+    .testimonial-area {
+        padding: 62px 0 44px;
+    }
+
+    .testi-text {
+        margin-bottom: 200px;
+    }
+
+    .owl-nav {
+        position: relative;
+        top: -170px;
+    }
+
+    /* blog area */
+
+    .blog-area {
+        padding: 62px 0 43px;
+    }
+
+    .blog-single-box {
+        padding: 26px 15px 48px;
+        margin-bottom: 30px;
+    }
+
+    .blog-title h4 a {
+        font-size: 22px;;
+    }
+
+    .blog-bottom-title {
+        margin-right: 80px;
+    }
+
+    /* footer area */
+
+    .footer-area {
+        padding: 72px 0 0px;
+    }
+
+    .footer-wiget {
+        margin-bottom: 30px;
+    }
+
+    .footer-wiget-text p {
+        margin: 16px 0 25px;
+    }
+
+    .footer-wiget-menu ul li a {
+        font-size: 16px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+
+    .footer-condition {
+        display: none;
+    }
 
 /*==================================================
- <-- Thrwon All nner Page  Css-->
+ <-- Euildint Home Page Style Two Css-->
+===================================================*/
+
+    /* slider area */
+
+    .banner-carousel.owl-carousel.owl-loaded.owl-drag {
+        display: inline-block;
+    }
+
+    .banner-carousel .slide-item {
+        min-height: 750px;
+    }
+
+    .slider-content.style-two {
+        top: 43%;
+        width: 100%;
+    }
+
+    /* feature area style two */
+
+    .feature-area.style-two {
+        padding: 0px 0 40px;
+    }
+
+    .feature-items-box {
+        margin-bottom: 30px;
+    }
+
+    /* about area style two */
+
+    .about-area.style-two {
+        padding: 0 0 65px;
+    }
+
+    /* heistory area */
+
+    .row.history-bg {
+        padding: 78px 15px 80px;
+    }
+
+    .history-single-box {
+        padding: 37px 20px 51px;
+    }
+
+    .history-items-content {
+        padding: 11px 14px 21px;
+    }
+
+    .history-text h4 a {
+        font-size: 20px;
+    }
+
+    /* service area style two */
+
+    .service-items-box {
+        padding: 29px 20px 29px 14px;
+        display: inherit;
+        margin-bottom: 30px;
+    }
+
+    .service-items-content p {
+        margin: 12px 0 55px;
+    }
+
+    .service-items-thumb {
+        left: 0;
+    }
+
+    .service-items-thumb img{
+        width: 100%;
+    }
+
+    .service-items-icon {
+        top: 0px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .service-items-icon img {
+        width: auto;
+    }
+
+    /* team area */
+
+    .team-area {
+        padding: 64px 0 42px;
+    }
+    
+    .team-items-box {
+        margin-bottom: 145px;
+    }
+
+    /* blog area style two */
+
+    .blog-meta.style-two {
+        width: 100%;
+    }
+
+    .blog-meta-date {
+        margin-right: 6px;
+    }
+
+    .blog-content.style-two {
+        padding: 0px 15px 24px;
+    }
+
+    .blog-meta span {
+        font-size: 14px;
+    }
+
+/*==================================================
+ <-- Euildint Home Page Style Three Css-->
+===================================================*/
+    /* slider area */
+
+    .slider-content.style-two.three {
+        left: 30px;
+        top: 42%;
+    }
+
+    /* about area styele three */
+
+    .about-area.style-three {
+        padding: 64px 0 65px;
+    }
+
+    .about-list {
+        margin-top: 25px;
+    }
+
+    /* service area style three */
+
+    .service-area.style-three {
+        padding: 60px 0 65px;
+    }
+
+    .service-items-box-two {
+        margin-bottom: 30px;
+    }
+
+    .service-disctription {
+        text-align: left;
+    }
+
+    .service-disctription span {
+        font-size: 16px;
+    }
+
+    /* faq area */
+
+    .faq-area.style-two {
+        padding: 0 0 204px;
+    }
+
+    .single-video.style-two {
+        top: 82px;
+    }
+
+    .faq-single-box {
+        top: 92px;
+        left: 0;
+    }
+
+    /* work process area */
+
+    .work-process-area {
+        padding: 32px 0 0px;
+    }
+
+    .work-process-single-box {
+        margin-bottom: 70px;
+    }
+
+    .work-process-single-box::before{
+        display: none;
+    }
+
+    .work-process-shape {
+        left: -33px;
+    }
+
+    /* call do action area */
+
+    .call-do-action-area.style-two {
+        padding: 20px 0 0;
+    }
+
+    .call-do-title {
+        margin: 40px 0 30px;
+    }
+
+    /* testimonial area */
+
+    .testimonial-area.style-two {
+        padding: 62px 0 23px;
+    }
+
+    .testi-itmes-box {
+        margin-bottom: 50px;
+    }
+
+    .testi-items-content {
+        width: 328px;
+    }
+
+
+/*==================================================
+ <-- Euildint All nner Page  Css-->
 ===================================================*/
 
     /* bratcome area */
 
-    .breatcome-area {
-        padding: 170px 0 100px;
+    .breatcome-title {
+        margin-top: -40px;
     }
 
     /* about area inner page  */
 
     .about-area.inner-page {
         padding: 72px 0 64px;
+    }
+
+    /* team inner page */
+
+    .team-area.inner-page {
+        padding: 62px 0 40px;
+    }
+
+    /* testimonial inner page */
+
+    .testimonial-area.style-two.inner-page {
+        padding: 31px 0 23px;
     }
 
     /* service details */
@@ -1879,7 +1360,7 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     .projetct-details-image {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     .projetct-details-image img {
@@ -1888,14 +1369,6 @@ section.banner-section.style-three .banner-carousel .slide-item {
 
     .image img {
         width: 100%;
-    }
-
-    .project-btn {
-        margin-bottom: 20px;
-    }
-
-    .project-details-area .title h4 {
-        margin-bottom: 15px;
     }
 
     /* team details area */
@@ -1905,7 +1378,7 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     .team-details-author-experience ul li .value {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     /* contact area */
@@ -1927,10 +1400,6 @@ section.banner-section.style-three .banner-carousel .slide-item {
         margin-top: -130px;
     }
 
-    .thrown-btn.contact-us {
-        margin-bottom: 75px;
-    }
-
     /* pricing area inner page */
 
     .pricing-area.inner-page {
@@ -1938,1768 +1407,483 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
 
-    /* contact inner page  */
+   
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+        /* topbar css */
+
+        .topbar-area {
+            display: none !important;
+        }
+    
+        /* header area */
+    
+        .header-area {
+            display: none;
+        }
+    
+        /* slider area */
+    
+        .slider-area {
+            display: block !important;
+        }
+    
+        .slider-content {
+            padding: 144px 0 0;
+        }
+
+        .slider-sub-title h4 {
+            font-size: 20px;
+        }
+
+        .slider-main-title h1 {
+            font-size: 50px;
+        }
+    
+        .slider-thumb {
+            display: none;
+        }
+    
+        /* feature area */
+    
+        .feature-area {
+            padding: 0 0 76px;
+        }
+    
+        .feature-items {
+            margin-left: -59px;
+            position: relative;
+            left: 60px;
+        }
+
+        .feature-title h4 a {
+            font-size: 20px;
+        }
+    
+        /* about area */
+    
+        .about-area {
+            padding: 0 0 66px;
+        }
+    
+        .about-thumb {
+            margin-bottom: 50px;
+        }
+    
+        .about-discribtion p {
+            margin: 38px 0 0px;
+        }
+
+        /* section title */
+
+        .section-sub-title h4 {
+            font-size: 20px;
+        }
+
+        .section-main-title h2 {
+            font-size: 35px;
+            line-height: 40px;
+        }
+    
+        /* contact area */
+    
+        .contact-area {
+            padding: 42px 0 48px;
+        }
+
+        .contact-discription p {
+            width: 93%;
+        }
+    
+        .contact-thumb {
+            display: none;
+        }
+    
+        /* service area*/
+    
+        .service-area {
+            padding: 60px 0 65px;
+        }
+    
+        .service-single-box {
+            margin-bottom: 30px;
+        }
+    
+        .service-thumb img {
+            width: 88%;
+        }
+    
+        .service-title {
+            right: -65%;
+        }
+    
+        /* pricing area */
+    
+        .pricing-area {
+            padding: 62px 0 28px;
+        }
+    
+        .pricing-single-box {
+            margin-bottom: 30px;
+        }
+    
+        /* faq area */
+    
+        .faq-area {
+            padding: 0 0 46px;
+        }
+    
+        /* project area */
+    
+        .project-area {
+            padding: 62px 0 83px;
+        }
+
+        .project-single-box {
+            margin-bottom: 50px;
+        }
+
+        .project-single-box.two {
+            margin-bottom: 140px;
+        }
+
+        .project-single-box.three {
+            margin-bottom: 90px;
+        }
+        
+        .project-thumb img {
+            width: 100%;
+        }
+    
+        .project-content {
+            width: 100%;
+            padding: 0 10px 0;
+        }
+    
+        /* testimonial area */
+    
+        .testimonial-area {
+            padding: 62px 0 44px;
+        }
+
+        .testi-single-box.two {
+            margin-top: 180px;
+        }
+
+        .testi-single-box.four {
+            margin-top: 180px;
+        }
+    
+        .testi-text {
+            margin-bottom: 80px;
+        }
+    
+        .owl-nav {
+            position: relative;
+            top: -70px;
+        }
+    
+        /* blog area */
+    
+        .blog-area {
+            padding: 62px 0 43px;
+        }
+    
+        .blog-single-box {
+            margin-bottom: 30px;
+        }
+    
+        .blog-title h4 a {
+            font-size: 22px;;
+        }
+    
+        .blog-bottom-title {
+            margin-right: 80px;
+        }
+    
+        /* footer area */
+    
+        .footer-area {
+            padding: 72px 0 0px;
+        }
+    
+        .footer-wiget {
+            margin-bottom: 30px;
+        }
+    
+        .footer-wiget-text p {
+            margin: 16px 0 25px;
+        }
+    
+        .footer-wiget-menu ul li a {
+            font-size: 16px;
+        }
+    
+        .copyright-text {
+            text-align: center;
+        }
+    
+        .footer-condition {
+            display: none;
+        }
+    
+    /*==================================================
+     <-- Euildint Home Page Style Two Css-->
+    ===================================================*/
+    
+        /* slider area */
+    
+        .banner-carousel.owl-carousel.owl-loaded.owl-drag {
+            display: inline-block;
+        }
+    
+        .banner-carousel .slide-item {
+            min-height: 750px;
+        }
+    
+        .slider-content.style-two {
+            top: 43%;
+            width: 86%;
+        }
+    
+        /* feature area style two */
+    
+        .feature-area.style-two {
+            padding: 0px 0 40px;
+        }
+    
+        .feature-items-box {
+            margin-bottom: 30px;
+        }
+    
+        /* about area style two */
+    
+        .about-area.style-two {
+            padding: 0 0 65px;
+        }
+    
+        /* heistory area */
+    
+        .row.history-bg {
+            padding: 78px 15px 80px;
+        }
+    
+        .history-single-box {
+            padding: 37px 20px 51px;
+        }
+
+        .history-items-thumb img {
+            transition: .5s;
+            width: 100%;
+        }
+    
+        .history-items-content {
+            padding: 11px 30px 21px;
+        }
+    
+        .history-text h4 a {
+            font-size: 20px;
+        }
+
+        /* counter area */
+
+        .counter-single-box {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* call do area */
+
+        .call-do-action-area {
+            height: 875px;
+        }
+
+        .call-do-title h2 {
+            font-size: 36px;
+            line-height: 45px;
+        }
+    
+        /* service area style two */
+    
+        .service-items-box {
+            padding: 29px 20px 29px 14px;
+            display: inherit;
+            margin-bottom: 30px;
+        }
+    
+        .service-items-content p {
+            margin: 12px 0 55px;
+        }
+    
+        .service-items-thumb {
+            left: 0;
+        }
+    
+        .service-items-thumb img{
+            width: 100%;
+        }
+    
+        .service-items-icon {
+            top: 0px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+        .service-items-icon img {
+            width: auto;
+        }
+    
+        /* team area */
+    
+        .team-area {
+            padding: 64px 0 42px;
+        }
+        
+        .team-items-box {
+            margin-bottom: 145px;
+        }
+    
+        /* blog area style two */
+
+        .blog-thumb img {
+            width: 100%;
+        }
+    
+        .blog-meta.style-two {
+            width: 100%;
+        }
+    
+        .blog-content.style-two {
+            padding: 0px 15px 24px;
+        }
+    
+    
+    /*==================================================
+     <-- Euildint Home Page Style Three Css-->
+    ===================================================*/
+        /* slider area */
+    
+        .slider-content.style-two.three {
+            left: 30px;
+            top: 42%;
+        }
+    
+        /* about area styele three */
+    
+        .about-area.style-three {
+            padding: 64px 0 65px;
+        }
+    
+        .about-list {
+            margin-top: 25px;
+        }
+    
+        /* service area style three */
+    
+        .service-area.style-three {
+            padding: 60px 0 65px;
+        }
+    
+        .service-items-box-two {
+            margin-bottom: 30px;
+        }
+
+        .service-icon-thumb {
+            margin-top: 18px;
+        }
+
+        .service-items-content-two p {
+            margin: 5px 0 31px;
+        }
+
+        .service-items-thumb-two img {
+            width: 100%;
+        }
+    
+        .service-disctription {
+            display: none;
+        }
+    
+        .service-disctription span {
+            font-size: 16px;
+        }
+    
+        /* faq area */
+    
+        .faq-area.style-two {
+            padding: 0 0 204px;
+        }
+    
+        .single-video.style-two {
+            top: 82px;
+        }
+
+        .faq-single-box {
+            padding: 73px 40px 60px;
+            top: 92px;
+            left: 0;
+        }
+    
+        /* work process area */
+    
+        .work-process-area {
+            padding: 32px 0 0px;
+        }
+    
+        .work-process-single-box {
+            margin-bottom: 70px;
+        }
+    
+        .work-process-single-box::before{
+            display: none;
+        }
+    
+        .work-process-shape {
+            left: 53px;
+        }
+
+        .work-process-number {
+            right: 53px;
+        }
+    
+        /* call do action area */
+    
+        .call-do-action-area.style-two {
+            padding: 20px 0 0;
+        }
+    
+        .call-do-title {
+            margin: 40px 0 30px;
+        }
+    
+        /* testimonial area */
+    
+        .testimonial-area.style-two {
+            padding: 62px 0 23px;
+        }
+    
+        .testi-itmes-box {
+            margin-bottom: 50px;
+        }
+    
+        .testi-items-content {
+            width: 106%;
+        }
 
-    .contact-inner-page {
-        padding: 70px 0 0;
-    }
-
-    .row.inner {
-        margin-bottom: 20px;
-    }
-
-    .contact-inner-box {
-        margin-bottom: 40px;
-    }
-
-    .contact-inner-box::before {
-        display: none;
-    }
-
-     /* error page  */
-
-     .error-area {
-        padding: 25px 0 76px;
-    }
-
-
-}
-
-
-/* Tablet desktop :600px. */
-@media (min-width: 600px) and (max-width: 767px) {
-
-.mobile-menu-area {
-    display: inherit;
-}
-
-.sidebar-menu {
-    display: inherit;
-}
-
-/* topbar area */
-
-.thrown-topbar-area {
-    display: none;
-}
-
-/* header area */
-
-.thrown-header-area {
-    display: none;
-}
-
-/* slider area */
-
-.banner-carousel .slide-item .image-layer {
-    background-position: none;
-    background-size: cover;
-}
-
-.banner-carousel .slide-item {
-    min-height: 800px;
-}
-
-.slider-content {
-    width: 100%;
-}
-
-.slider-main-title h1 {
-    font-size: 46px;
-    line-height: 65px;
-}
-
-.slider-sub-title.style-two h4 {
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-.banner-section .owl-nav {
-    display: none;
-}
-
-.slider-shape {
-    display: none;
-}
-
-.slider-box {
-    display: none;
-}
-
-.slider-shape2 {
-    display: none;
-}
-
-/* about area */
-
-.about-area {
-    padding: 70px 0 43px;
-}
-
-.about-thumb {
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.about-thumb img {
-    width: 75%;
-}
-
-.about-shape {
-    right: 55%;
-}
-
-.about-shape img {
-    width: 100%;
-}
-
-.about-sub-title h4 {
-    margin-bottom: 0px;
-}
-
-.about-main-title {
-    margin-bottom: 10px;
-}
-
-.about-main-title h2 {
-    font-size: 44px;
-    line-height: 65px;
-}
-
-.about-discribtion p {
-    width: 100%;
-}
-
-.about-single-box {
-    margin-bottom: 30px;
-    display: inline-block;
-}
-
-
-/* section title */
-
-.section-sub-title h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.section-main-title h2 {
-    font-size: 37px;
-    line-height: 55px;
-}
-
-
-/* contact us area */
-
-.contact-us-items {
-    text-align: center;
-}
-
-.contact-us-content {
-    width: 83%;
-    margin: auto;
-}
-
-.contact-us-items.two {
-    display: none;
-}
-
-/* service area */
-
-.service-area {
-    padding: 67px 0 39px;
-}
-
-.service-single-box {
-    padding: 67px 35px 64px;
-}
-
-/* project area */
-
-.project-area {
-    padding: 66px 0 195px;
-}
-
-.column {
-    flex: 100%;
-    max-width: 100%;
-}
-
-/* team area */
-
-.team-area {
-    padding: 68px 0 72px;
-    position: relative;
-}
-
-.team-shape1 {
-    display: none;
-}
-
-.team-shape2 {
-    display: none;
-}
-
-/* faq area */
-
-.faq-area {
-    padding: 95px 0 70px;
-}
-
-.tab_container {
-    margin-top: 0;
-}
-
-/* sales area */
-
-.sales-report-area {
-    padding: 60px 0 74px;
-}
-
-.row.sales {
-    padding: 12px 0px 16px 73px;
-}
-
-/* counter area */
-
-.counter-area {
-    padding: 61px 0 34px;
-}
-
-.counter-shape {
-    display: none;
-}
-
-.counter-single-box {
-    margin-bottom: 30px;
-}
-
-.counter-content h5 {
-    font-size: 17px;
-}
-
-.counter-content p {
-    font-size: 14px;
-}
-
-
-/* testimonial area */
-
-.testimonial-area {
-    padding: 66px 0 64px;
-}
-
-.testi-single-box {
-    padding: 46px 20px 40px;
-    margin: 0px;
-}
-
-.testi-discription p {
-    margin: 7px 0 0;
-}
-
-/* blog area */
-
-.blog-area {
-    padding: 67px 0 44px;
-}
-
-.blog-single-box {
-    padding: 43px 15px 46px;
-    margin-bottom: 30px;
-}
-
-.blog-single-box::before {
-    background-size: cover;
-}
-
-.blog-bottom-title {
-    margin-right: 85px;
-}
-
-/* footer area */
-
-.footer-area {
-    padding: 73px 0 0px;
-}
-
-.footer-wiget {
-    margin-bottom: 30px;
-}
-
-.copyright-text {
-    text-align: center;
-}
-
-.footer-condition {
-    text-align: center;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Two Css-->
-=================================================================*/
-
-/* topbar area */
-
-.sidebar-info {
-    display: none;
-}
-
-/* slider area */
-
-.slider-area {
-    height: 800px;
-}
-
-.slider-area.two {
-    height: 800px;
-}
-
-.about-area.style-two {
-    padding: 72px 0 27px;
-}
-
-/* about area*/
-
-.about-thumb img {
-    width: 100%;
-}
-
-.about-counter {
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-/* contact area */
-
-.contact-area {
-    padding: 60px 0 78px;
-}
-
-.section-title.contact {
-    text-align: center;
-}
-
-.contact-discription p {
-    width: 100%;
-}
-
-.contact-thumb {
-    display: none;
-}
-
-/* service area style two */
-
-.service-area.style-two {
-    padding: 66px 0 44px;
-}
-
-.service-items-box-two {
-    margin-bottom: 30px;
-}
-
-.service-items-content-two p {
-    margin: 12px 0 22px;
-}
-
-.service-items-thumb-two img {
-    width: 100%;
-}
-
-
-/* choose us area */
-
-.choose-area {
-    padding: 67px 0 250px;
-}
-
-.choose-area::after {
-    width: 100%;
-}
-
-.choose-content p {
-    width: 83%;
-}
-
-.single-video.style-two {
-    display: none;
-}
-
-.choose-contact {
-    width: 100%;
-    padding: 36px 45px 0;
-}
-
-.subscribe-title {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.choose-area .form-box input {
-    width: 100%;
-}
-
-/* work process area */
-
-.work-process-area {
-    padding: 66px 0 14px;
-}
-
-.work-process-single-box {
-    padding: 0px 30px 0;
-    margin-bottom: 20px;
-}
-
-/* pricing area */
-
-.pricing-area {
-    padding: 66px 0 0px;
-}
-
-.pricing-single-box {
-    padding: 50px 155px 48px;
-    margin-bottom: 30px;
-}
-
-
-/* team area css */
-
-.team-area.style-two {
-    padding: 63px 0 35px;
-}
-
-.section-main-title.team2 {
-    margin-bottom: 20px;
-}
-
-.team-discription {
-    margin-left: 0;
-    width: 66%;
-    margin-bottom: 48px;
-}
-
-.team-items-box {
-    margin-bottom: 30px;
-}
-
-.team-item-thumb img {
-    width: 100%;
-}
-
-/* testimonial area */
-
-.testimonial-area.style-two {
-    padding: 72px 0 142px;
-}
-
-.testimonial-items-box {
-    text-align: center;
-}
-
-.testimonial-item-thumb {
-    float: inherit;
-    margin-left: 81px;
-}
-
-.testimonial-discription p {
-    font-size: 22px;
-}
-
-.testimonial-shape {
-    display: none;
-}
-
-.testimonial-area.style-two .owl-nav {
-    bottom: -69px;
-    left: 60%;
-    transform: translateX(-50%);
-}
-
-
-/* contact area styel three */
-
-.contact-area-three {
-    padding: 63px 0 73px;
-}
-
-.contact-box {
-    margin-top: 40px;
-}
-
-/* blog style two */
-
-.blog-title.style-two h4 a {
-    font-size: 20px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Three Css-->
-=================================================================*/
-
-/* slider area */
-
-section.banner-section.style-three .banner-carousel .slide-item {
-    height: 800px;
-}
-
-.slider-content.style-three {
-    top: 44%;
-}
-
-/* about style three */
-
-.about-area.style-three {
-    padding: 0px 0 73px;
-}
-
-.about-thumb.style-three {
-    margin-right: -82px;
-    margin-top: -77px;
-    margin-left: -96px;
-}
-
-.about-shape-three {
-    bottom: -62px;
-}
-
-.section-sub-title.about3 h4 {
-    font-size: 20px;
-}
-
-.section-main-title.about3 h2 {
-    font-size: 39px;
-}
-
-/* contact us style three */
-
-.contact-us-area.style-three {
-    padding: 70px 0 63px;
-}
-
-.contact-us-area.style-three::before {
-    display: none;
-}
-
-.contact-us-list {
-    text-align: left;
-    margin-left: 77px;
-    margin-bottom: 40px;
-}
-
-.contact-us-items-box {
-    margin-left: 80px;
-}
-
-/* service style three */
-
-.service-single-box.style-three {
-    padding: 70px 17px 38px;
-}
-
-/* sucsess area */
-
-.sucsees-single-box {
-    padding: 68px 25px 65px;
-    margin-bottom: 30px;
-}
-
-.sucsees-item-box::before {
-    background-size: cover;
-}
-
-.sucsess-counter {
-    margin-bottom: 10px;
-}
-
-/* team area style three */
-
-.team-area.style-three {
-    padding: 66px 0 42px;
-}
-
-.team-items-box:hover .team-sub-icon {
-    bottom: 68%;
-}
-
-/* faq area */
-
-.faq-thumb {
-    display: none;
-}
-
-/* testimonila style three */
-
-.testimonial-area.style-three {
-    padding: 68px 0 65px;
-}
-
-.testi-items-three {
-    padding: 60px 12px 35px;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Four Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-area.style-four {
-    height: 850px;
-}
-
-.slider-four-thumb {
-    display: none;
-}
-
-.slider-content.four {
-    left: 44px;
-}
-
-/* about style four */
-
-.about-area.style-four {
-    padding: 64px 0 0px;
-}
-
-.about-thumb.four {
-    text-align: left;
-}
-
-/* call do action */
-
-.call-do-action-area {
-    padding: 98px 0 57px;
-}
-
-.call-do-title h2 {
-    font-size: 42px;
-}
-
-/* project style four */
-
-.project-area.style-four {
-    padding: 68px 0 44px;
-}
-
-.project-items-thumb img {
-    width: 100%;
-}
-
-/* like us area */
-
-.like-us-area {
-    padding: 68px 0 34px;
-}
-
-.like-us-single-box {
-    margin-bottom: 30px;
-}
-
-/* blog area style four */
-
-.blog-area.style-four {
-    padding: 68px 0 50px;
-}
-
-.blog-four-thumb img {
-    width: 100%;
-}
-
-/*===============================================================
-<-- Thrown Home Page Five Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-content.style-five {
-    width: 100%;
-    top: 50%;
-}
-
-.slider-discripton.inner p {
-    width: 80%;
-}
-
-.slider-bottom {
-    display: none;
-}
-
-/* service area style five */
-
-.service-area.style-five {
-    padding: 67px 0 68px;
-}
-
-.service-disctription {
-    text-align: left;
-}
-
-.service-disctription span {
-    font-size: 16px;
-}
-
-.thrown-btn.service5 a {
-    font-size: 16px;
-    padding: 12px 28px;
-}
-
-/* conversion area */
-
-.conversion-area {
-    padding: 69px 0 0;
-}
-
-.conversion-text {
-    padding: 73px 57px 24px;
-}
-
-.call-do-action-area.style-five {
-    height: 730px;
-    padding: 324px 0 0;
-}
-
-/* about style five */
-
-.about-area.style-five {
-    padding: 73px 0 75px;
-}
-
-/* team area style five */
-
-.team-area.style-five {
-    padding: 68px 0 0;
-}
-
-.team-area.style-five.dark {
-    padding: 68px 0 43px;
-}
-
-.team-items-five {
-    margin-bottom: 30px;
-}
-
-.team-five-thumb img {
-    width: 100%;
-}
-
-/* brand area style five */
-
-.brand-area.style-five {
-    padding: 25px 0 55px;
-}
-
-/* working project area */
-
-.working-single-box.two {
-    display: none;
-}
-
-.working-single-box::before {
-    display: none;
-}
-
-.working-content {
-    left: 15px;
-}
-
-/* testimonial area style five */
-
-.testimonial-area.style-five {
-    padding: 68px 0 73px;
-}
-
-.testi-item-five {
-    display: none;
-}
-
-.testi-five-box {
-    padding: 35px 25px 30px;
-}
 
 /*==================================================
- <-- Thrown All nner Page  Css-->
+ <-- Euildint All nner Page  Css-->
 ===================================================*/
 
     /* bratcome area */
 
-    .breatcome-area {
-        padding: 170px 0 100px;
+    .breatcome-title {
+        margin-top: -40px;
     }
-
-
-    /* about area inner page  */
-
-    .about-area.inner-page {
-        padding: 72px 0 64px;
-    }
-
-    /* team inner page */
-
-    .team-area.inner-page {
-        padding: 62px 0 40px;
-    }
-
-    /* testimonial inner page */
-
-    .testimonial-area.style-two.inner-page {
-        padding: 31px 0 23px;
-    }
-
-    /* service details */
-
-    .service-details-area {
-        padding: 74px 0 42px;
-    }
-
-    .service-details-thumb img {
-        width: 100%;
-    }
-
-    .service-details-content h4 a {
-        font-size: 26px;
-    }
-
-    /* blog standard area */
-
-    .blog-standard-area {
-        padding: 72px 0 44px;
-    }
-
-    .blog-standard-thumb img {
-        width: 100%;
-    }
-
-    .as-pagination {
-        margin-bottom: 72px;
-    }
-
-    /* blog details area */
-
-    .blog-details-area {
-        padding: 72px 0 42px;
-    }
-
-    .blog-details-thumb {
-        margin-bottom: 30px;
-    }
-
-    .blog-details-list {
-        margin-top: 30px;
-    }
-
-    .ba-blog-details-social-icons {
-        text-align: left;
-        margin-top: 30px;
-    }
-
-    .blog-team-content p {
-        font-size: 14px;
-    }
-
-    .ba-blog-details-social-icons.two {
-        display: none;
-    }
-
-    .blog-details-item {
-        margin-bottom: 30px;
-    }
-
-    .blog-item-thumb.two {
-        margin-right: 0;
-    }
-
-    .blog-item-content h4 a {
-        font-size: 20px;
-    }
-
-    .owl-nav {
-        display: none;
-    }
-
-    .blog-details-comment h5 {
-        margin-bottom: 60px;
-    }
-
-    .blog-comment-box {
-        margin-bottom: 85px;
-    }
-
-    .blog-comment-thumb {
-        margin-top: -20px;
-    }
-
-    .blog-comment-box.inner {
-        margin-left: 0;
-    }
-
-    .blog-contact-box {
-        margin-bottom: 30px;
-    }
-
-    .blog-contact-box {
-        margin-top: -60px;
-    }
-
-    /* project innner page  */
-
-    .project-area.inner-page {
-        padding: 63px 0 85px;
-    }
-
-    /* project detals area */
-
-    .project-details-area {
-        padding: 73px 0 72px;
-    }
-
-    .projetct-details-image {
-        margin-bottom: 15px;
-    }
-
-    .projetct-details-image img {
-        width: 100%;
-    }
-
-    .image img {
-        width: 100%;
-    }
-
-    /* team details area */
-
-    .team-details-area {
-        padding: 72px 0 73px;
-    }
-
-    .team-details-author-img {
-        margin-bottom: 20px;
-    }
-
-    /* contact area */
-    
-    .contact-single-box {
-        margin-bottom: 40px;
-    }
-
-    .contact-single-box::before{
-        display: none;
-    }
-
-    .row.contact {
-        padding: 72px 20px 87px;
-        margin-top: -130px;
-    }
-
-    .contact-title h2 {
-        font-size: 40px;
-    }
-
-    /* pricing area inner page */
-
-    .pricing-area.inner-page {
-        padding: 64px 0 44px;
-    }
-
-    /* contact inner page  */
-
-    .contact-inner-page {
-        padding: 70px 0 0;
-    }
-
-    .row.inner {
-        margin-bottom: 20px;
-    }
-
-    .contact-inner-box {
-        margin-bottom: 40px;
-    }
-
-    .contact-inner-box::before {
-        display: none;
-    }
-
-     /* error page  */
-
-     .error-area {
-        padding: 25px 0 76px;
-    }
-    
-    
-    
-    
-
-}
-
-
-/* small mobile :575px. */
-@media only screen and (min-width: 575px) and (max-width: 599px) {
-    
-.mobile-menu-area {
-    display: inherit;
-}
-
-.sidebar-menu {
-    display: inherit;
-}
-
-/* topbar area */
-
-.thrown-topbar-area {
-    display: none;
-}
-
-/* header area */
-
-.thrown-header-area {
-    display: none;
-}
-
-/* slider area */
-
-.banner-carousel .slide-item .image-layer {
-    background-position: none;
-    background-size: cover;
-}
-
-.banner-carousel .slide-item {
-    min-height: 800px;
-}
-
-.slider-content {
-    width: 100%;
-}
-
-.slider-main-title h1 {
-    font-size: 46px;
-    line-height: 65px;
-}
-
-.slider-sub-title.style-two h4 {
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-.banner-section .owl-nav {
-    display: none;
-}
-
-.slider-shape {
-    display: none;
-}
-
-.slider-box {
-    display: none;
-}
-
-.slider-shape2 {
-    display: none;
-}
-
-/* about area */
-
-.about-area {
-    padding: 70px 0 43px;
-}
-
-.about-thumb {
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.about-thumb img {
-    width: 75%;
-}
-
-.about-shape {
-    right: 55%;
-}
-
-.about-shape img {
-    width: 100%;
-}
-
-.about-sub-title h4 {
-    margin-bottom: 0px;
-}
-
-.about-main-title {
-    margin-bottom: 10px;
-}
-
-.about-main-title h2 {
-    font-size: 44px;
-    line-height: 65px;
-}
-
-.about-discribtion p {
-    width: 100%;
-}
-
-.about-single-box {
-    margin-bottom: 30px;
-    display: inline-block;
-}
-
-
-/* section title */
-
-.section-sub-title h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.section-main-title h2 {
-    font-size: 37px;
-    line-height: 55px;
-}
-
-
-/* contact us area */
-
-.contact-us-items {
-    text-align: center;
-}
-
-.contact-us-content {
-    width: 83%;
-    margin: auto;
-}
-
-.contact-us-items.two {
-    display: none;
-}
-
-/* service area */
-
-.service-area {
-    padding: 67px 0 39px;
-}
-
-.service-single-box {
-    padding: 67px 35px 64px;
-}
-
-/* project area */
-
-.project-area {
-    padding: 66px 0 195px;
-}
-
-.column {
-    flex: 100%;
-    max-width: 100%;
-}
-
-/* team area */
-
-.team-area {
-    padding: 68px 0 72px;
-    position: relative;
-}
-
-.team-shape1 {
-    display: none;
-}
-
-.team-shape2 {
-    display: none;
-}
-
-/* faq area */
-
-.faq-area {
-    padding: 92px 0 70px;
-}
-
-.tab_container {
-    margin-top: 0;
-}
-
-/* sales area */
-
-.sales-report-area {
-    padding: 60px 0 74px;
-}
-
-.row.sales {
-    padding: 12px 0px 16px 73px;
-}
-
-/* counter area */
-
-.counter-area {
-    padding: 61px 0 34px;
-}
-
-.counter-shape {
-    display: none;
-}
-
-.counter-single-box {
-    margin-bottom: 30px;
-}
-
-.counter-content h5 {
-    font-size: 17px;
-}
-
-.counter-content p {
-    font-size: 14px;
-}
-
-
-/* testimonial area */
-
-.testimonial-area {
-    padding: 66px 0 64px;
-}
-
-.testi-single-box {
-    padding: 46px 20px 40px;
-    margin: 0px;
-}
-
-.testi-discription p {
-    margin: 7px 0 0;
-}
-
-/* blog area */
-
-.blog-area {
-    padding: 67px 0 44px;
-}
-
-.blog-single-box {
-    padding: 43px 15px 46px;
-    margin-bottom: 30px;
-}
-
-.blog-single-box::before {
-    background-size: cover;
-}
-
-.blog-bottom-title {
-    margin-right: 85px;
-}
-
-/* footer area */
-
-.footer-area {
-    padding: 73px 0 0px;
-}
-
-.footer-wiget {
-    margin-bottom: 30px;
-}
-
-.copyright-text {
-    text-align: center;
-}
-
-.footer-condition {
-    text-align: center;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Two Css-->
-=================================================================*/
-
-/* topbar area */
-
-.sidebar-info {
-    display: none;
-}
-
-/* slider area */
-
-.slider-area {
-    height: 800px;
-}
-
-.slider-area.two {
-    height: 800px;
-}
-
-.about-area.style-two {
-    padding: 72px 0 27px;
-}
-
-/* about area*/
-
-.about-thumb img {
-    width: 100%;
-}
-
-.about-counter {
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-/* contact area */
-
-.contact-area {
-    padding: 60px 0 78px;
-}
-
-.section-title.contact {
-    text-align: center;
-}
-
-.contact-discription p {
-    width: 100%;
-}
-
-.contact-thumb {
-    display: none;
-}
-
-/* service area style two */
-
-.service-area.style-two {
-    padding: 66px 0 44px;
-}
-
-.service-items-box-two {
-    margin-bottom: 30px;
-}
-
-.service-items-content-two p {
-    margin: 12px 0 22px;
-}
-
-.service-items-thumb-two img {
-    width: 100%;
-}
-
-
-/* choose us area */
-
-.choose-area {
-    padding: 67px 0 250px;
-}
-
-.choose-area::after {
-    width: 100%;
-}
-
-.choose-content p {
-    width: 83%;
-}
-
-.single-video.style-two {
-    display: none;
-}
-
-.choose-contact {
-    width: 100%;
-    padding: 36px 45px 0;
-}
-
-.subscribe-title {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.choose-area .form-box input {
-    width: 100%;
-}
-
-/* work process area */
-
-.work-process-area {
-    padding: 66px 0 14px;
-}
-
-.work-process-single-box {
-    padding: 0px 30px 0;
-    margin-bottom: 20px;
-}
-
-/* pricing area */
-
-.pricing-area {
-    padding: 66px 0 32px;
-}
-
-.pricing-single-box {
-    padding: 50px 155px 48px;
-    margin-bottom: 30px;
-}
-
-
-/* team area css */
-
-.team-area.style-two {
-    padding: 0px 0 35px;
-}
-
-.team-area.style-two.dark {
-    padding: 62px 0 22px;
-}
-
-.section-main-title.team2 {
-    margin-bottom: 20px;
-}
-
-.team-discription {
-    margin-left: 0;
-    width: 66%;
-    margin-bottom: 48px;
-}
-
-.team-items-box {
-    margin-bottom: 30px;
-}
-
-.team-item-thumb img {
-    width: 100%;
-}
-
-/* testimonial area */
-
-.testimonial-area.style-two {
-    padding: 72px 0 142px;
-}
-
-.testimonial-items-box {
-    text-align: center;
-}
-
-.testimonial-item-thumb {
-    float: inherit;
-    margin-left: 81px;
-}
-
-.testimonial-discription p {
-    font-size: 22px;
-}
-
-.testimonial-shape {
-    display: none;
-}
-
-.testimonial-area.style-two .owl-nav {
-    bottom: -69px;
-    left: 60%;
-    transform: translateX(-50%);
-}
-
-
-/* contact area styel three */
-
-.contact-area-three {
-    padding: 63px 0 73px;
-}
-
-.contact-box {
-    margin-top: 40px;
-}
-
-/* blog style two */
-
-.blog-title.style-two h4 a {
-    font-size: 24px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Three Css-->
-=================================================================*/
-
-/* slider area */
-
-section.banner-section.style-three .banner-carousel .slide-item {
-    height: 800px;
-}
-
-.slider-content.style-three {
-    top: 44%;
-}
-
-/* about style three */
-
-.about-area.style-three {
-    padding: 0px 0 73px;
-}
-
-.about-thumb.style-three {
-    margin-right: -82px;
-    margin-top: -77px;
-    margin-left: -96px;
-}
-
-.about-shape-three {
-    bottom: -62px;
-}
-
-.section-sub-title.about3 h4 {
-    font-size: 20px;
-}
-
-.section-main-title.about3 h2 {
-    font-size: 39px;
-}
-
-/* contact us style three */
-
-.contact-us-area.style-three {
-    padding: 70px 0 63px;
-}
-
-.contact-us-area.style-three::before {
-    display: none;
-}
-
-.contact-us-list {
-    text-align: left;
-    margin-left: 77px;
-    margin-bottom: 40px;
-}
-
-.contact-us-items-box {
-    margin-left: 80px;
-}
-
-/* service style three */
-
-.service-single-box.style-three {
-    padding: 70px 17px 38px;
-}
-
-/* sucsess area */
-
-.sucsees-single-box {
-    padding: 68px 25px 65px;
-    margin-bottom: 30px;
-}
-
-.sucsees-item-box::before {
-    background-size: cover;
-}
-
-.sucsess-counter {
-    margin-bottom: 10px;
-}
-
-/* team area style three */
-
-.team-area.style-three {
-    padding: 66px 0 42px;
-}
-
-.team-items-box:hover .team-sub-icon {
-    bottom: 68%;
-}
-
-/* faq area */
-
-.faq-thumb {
-    display: none;
-}
-
-/* testimonila style three */
-
-.testimonial-area.style-three {
-    padding: 68px 0 65px;
-}
-
-.testi-items-three {
-    padding: 60px 12px 35px;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Four Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-area.style-four {
-    height: 850px;
-}
-
-.slider-four-thumb {
-    display: none;
-}
-
-.slider-content.four {
-    left: 44px;
-}
-
-/* about style four */
-
-.about-area.style-four {
-    padding: 64px 0 0px;
-}
-
-.about-thumb.four {
-    text-align: left;
-}
-
-/* call do action */
-
-.call-do-action-area {
-    padding: 98px 0 57px;
-}
-
-.call-do-title h2 {
-    font-size: 42px;
-}
-
-/* project style four */
-
-.project-area.style-four {
-    padding: 68px 0 44px;
-}
-
-.project-items-thumb img {
-    width: 100%;
-}
-
-/* like us area */
-
-.like-us-area {
-    padding: 68px 0 34px;
-}
-
-.like-us-single-box {
-    margin-bottom: 30px;
-}
-
-/* blog area style four */
-
-.blog-area.style-four {
-    padding: 68px 0 50px;
-}
-
-.blog-four-thumb img {
-    width: 100%;
-}
-
-/*===============================================================
-<-- Thrown Home Page Five Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-content.style-five {
-    width: 100%;
-    top: 50%;
-}
-
-.slider-discripton.inner p {
-    width: 80%;
-}
-
-.slider-bottom {
-    display: none;
-}
-
-/* service area style five */
-
-.service-area.style-five {
-    padding: 67px 0 68px;
-}
-
-.service-disctription {
-    text-align: left;
-}
-
-.service-disctription span {
-    font-size: 16px;
-}
-
-.thrown-btn.service5 a {
-    font-size: 16px;
-    padding: 12px 28px;
-}
-
-/* conversion area */
-
-.conversion-area {
-    padding: 69px 0 0;
-}
-
-.conversion-text {
-    padding: 73px 57px 24px;
-}
-
-.call-do-action-area.style-five {
-    height: 730px;
-    padding: 324px 0 0;
-}
-
-/* about style five */
-
-.about-area.style-five {
-    padding: 73px 0 75px;
-}
-
-/* team area style five */
-
-.team-area.style-five {
-    padding: 68px 0 0;
-}
-
-.team-area.style-five.dark {
-    padding: 68px 0 43px;
-}
-
-.team-items-five {
-    margin-bottom: 30px;
-}
-
-.team-five-thumb img {
-    width: 100%;
-}
-
-/* brand area style five */
-
-.brand-area.style-five {
-    padding: 25px 0 55px;
-}
-
-/* working project area */
-
-.working-single-box::before {
-    display: none;
-}
-
-.working-single-box.two {
-    display: none;
-}
-
-.working-content {
-    left: 15px;
-}
-
-/* testimonial area style five */
-
-.testimonial-area.style-five {
-    padding: 68px 0 73px;
-}
-
-.testi-item-five {
-    display: none;
-}
-
-.testi-five-box {
-    padding: 35px 25px 30px;
-} 
-
-/*==================================================
- <-- Thrown All nner Page  Css-->
-===================================================*/
-
-    /* bratcome area */
-
-    .breatcome-area {
-        padding: 170px 0 100px;
-    }
-
 
     /* about area inner page  */
 
@@ -3871,857 +2055,522 @@ section.banner-section.style-three .banner-carousel .slide-item {
         font-size: 40px;
     }
 
-    .thrown-btn.contact-us {
-        margin-bottom: 75px;
-    }
-
     /* pricing area inner page */
 
     .pricing-area.inner-page {
         padding: 64px 0 44px;
     }
-
-    /* contact inner page  */
-
-    .contact-inner-page {
-        padding: 70px 0 0;
-    }
-
-    .row.inner {
-        margin-bottom: 20px;
-    }
-
-    .contact-inner-box {
-        margin-bottom: 40px;
-    }
-
-    .contact-inner-box::before {
-        display: none;
-    }
-
-     /* error page  */
-
-     .error-area {
-        padding: 25px 0 76px;
-    }
     
     
-
-
 
 }
+
+
+
 
 /* small mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 574px) {
-
-.mobile-menu-area {
-    display: inherit;
-}
-
-.sidebar-menu {
-    display: inherit;
-}
-
-/* topbar area */
-
-.thrown-topbar-area {
-    display: none;
-}
-
-/* header area */
-
-.thrown-header-area {
-    display: none;
-}
-
-/* slider area */
-
-.banner-carousel .slide-item .image-layer {
-    background-position: none;
-    background-size: cover;
-}
-
-.banner-carousel .slide-item {
-    min-height: 750px;
-}
-
-.slider-content {
-    width: 100%;
-}
-
-.slider-main-title h1 {
-    font-size: 40px;
-    line-height: 55px;
-}
-
-.slider-sub-title.style-two h4 {
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-.banner-section .owl-nav {
-    display: none;
-}
-
-.slider-shape {
-    display: none;
-}
-
-.slider-box {
-    display: none;
-}
-
-.slider-shape2 {
-    display: none;
-}
-
-/* about area */
-
-.about-area {
-    padding: 70px 0 43px;
-}
-
-.about-thumb {
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.about-thumb img {
-    width: 75%;
-}
-
-.about-shape {
-    right: 55%;
-}
-
-.about-shape img {
-    width: 100%;
-}
-
-.about-sub-title h4 {
-    margin-bottom: 0px;
-}
-
-.about-main-title {
-    margin-bottom: 10px;
-}
-
-.about-main-title h2 {
-    font-size: 39px;
-    line-height: 60px;
-}
-
-.about-discribtion p {
-    width: 100%;
-}
-
-.about-single-box {
-    margin-bottom: 30px;
-    display: inline-block;
-}
-
-
-/* section title */
-
-.section-sub-title h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.section-main-title h2 {
-    font-size: 33px;
-    line-height: 50px;
-}
-
-
-/* contact us area */
-
-.contact-us-items {
-    text-align: center;
-}
-
-.contact-us-content {
-    width: 83%;
-    margin: auto;
-}
-
-.contact-us-items.two {
-    display: none;
-}
-
-/* service area */
-
-.service-area {
-    padding: 67px 0 39px;
-}
-
-.service-single-box {
-    padding: 67px 35px 64px;
-}
-
-/* project area */
-
-.project-area {
-    padding: 66px 0 195px;
-}
-
-.column {
-    flex: 100%;
-    max-width: 100%;
-}
-
-/* team area */
-
-.team-area {
-    padding: 68px 0 72px;
-    position: relative;
-}
-
-.team-shape1 {
-    display: none;
-}
-
-.team-shape2 {
-    display: none;
-}
-
-/* faq area */
-
-.faq-area {
-    padding: 92px 0 70px;
-    background-position: center center;
-}
-
-.tab_container {
-    margin-top: 0;
-}
-
-/* sales area */
-
-.sales-report-area {
-    padding: 60px 0 74px;
-}
-
-.row.sales {
-    padding: 12px 0px 16px 73px;
-}
-
-/* counter area */
-
-.counter-area {
-    padding: 61px 0 34px;
-}
-
-.counter-shape {
-    display: none;
-}
-
-.counter-single-box {
-    margin-bottom: 30px;
-}
-
-.counter-content h5 {
-    font-size: 17px;
-}
-
-.counter-content p {
-    font-size: 14px;
-}
-
-
-/* testimonial area */
-
-.testimonial-area {
-    padding: 66px 0 64px;
-}
-
-.testi-thumb {
-    float: inherit;
-    margin-right: 123px;
-    margin-bottom: 20px;
-}
-
-.testi-discription p {
-    margin: 10px 0 15px;
-    font-size: 16px;
-}
-
-.testi-icon-thumb {
-    right: 50px;
-    top: 58%;
-}
-
-/* blog area */
-
-.blog-area {
-    padding: 67px 0 44px;
-}
-
-.blog-single-box {
-    padding: 43px 15px 46px;
-    margin-bottom: 30px;
-}
-
-.blog-single-box::before {
-    background-size: cover;
-}
-
-.blog-bottom-title {
-    margin-right: 85px;
-}
-
-/* footer area */
-
-.footer-area {
-    padding: 73px 0 0px;
-}
-
-.footer-wiget {
-    margin-bottom: 30px;
-}
-
-.copyright-text {
-    text-align: center;
-}
-
-.footer-condition {
-    text-align: center;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Two Css-->
-=================================================================*/
-
-/* topbar area */
-
-.sidebar-info {
-    display: none;
-}
-
-/* slider area */
-
-.slider-area {
-    height: 800px;
-}
-
-.slider-area.two {
-    height: 800px;
-}
-
-.about-area.style-two {
-    padding: 72px 0 27px;
-}
-
-/* about area*/
-
-.about-thumb img {
-    width: 100%;
-}
-
-.about-counter {
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-/* contact area */
-
-.contact-area {
-    padding: 60px 0 78px;
-}
-
-.section-title.contact {
-    text-align: center;
-}
-
-.contact-discription p {
-    width: 100%;
-}
-
-.contact-thumb {
-    display: none;
-}
-
-/* service area style two */
-
-.service-area.style-two {
-    padding: 66px 0 44px;
-}
-
-.service-items-box-two {
-    margin-bottom: 30px;
-}
-
-.service-items-content-two p {
-    margin: 12px 0 22px;
-}
-
-.service-items-thumb-two img {
-    width: 100%;
-}
-
-
-/* choose us area */
-
-.choose-area {
-    padding: 67px 0 250px;
-}
-
-.choose-area::after {
-    width: 100%;
-}
-
-.choose-content p {
-    width: 83%;
-}
-
-.single-video.style-two {
-    display: none;
-}
-
-.choose-contact {
-    width: 100%;
-    padding: 36px 45px 0;
-}
-
-.subscribe-title {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.choose-area .form-box input {
-    width: 100%;
-}
-
-.form-box-button {
-    margin-left: -30px;
-}
-
-/* work process area */
-
-.work-process-area {
-    padding: 66px 0 14px;
-}
-
-.work-process-single-box {
-    padding: 0px 30px 0;
-    margin-bottom: 20px;
-}
-
-/* pricing area */
-
-.pricing-area {
-    padding: 66px 0 43px;
-}
-
-.pricing-single-box {
-    padding: 50px 124px 48px;
-    margin-bottom: 30px;
-}
-
-
-/* team area css */
-
-.team-area.style-two {
-    padding: 63px 0 35px;
-}
-
-.section-main-title.team2 {
-    margin-bottom: 20px;
-}
-
-.team-discription {
-    margin-left: 0;
-    width: 66%;
-    margin-bottom: 48px;
-}
-
-.team-items-box {
-    margin-bottom: 30px;
-}
-
-.team-item-thumb img {
-    width: 100%;
-}
-
-/* testimonial area */
-
-.testimonial-area.style-two {
-    padding: 72px 0 142px;
-}
-
-.testimonial-items-box {
-    text-align: center;
-}
-
-.testimonial-item-thumb {
-    float: inherit;
-    margin-left: 81px;
-}
-
-.testimonial-discription p {
-    font-size: 22px;
-}
-
-.testimonial-shape {
-    display: none;
-}
-
-.testimonial-area.style-two .owl-nav {
-    bottom: -69px;
-    left: 60%;
-    transform: translateX(-50%);
-}
-
-
-/* contact area styel three */
-
-.contact-area-three {
-    padding: 63px 0 73px;
-}
-
-.contact-box {
-    margin-top: 40px;
-}
-
-.form-box-button.contact {
-    margin-left: 0;
-}
-
-/* blog style two */
-
-.blog-title.style-two h4 a {
-    font-size: 20px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Three Css-->
-=================================================================*/
-
-/* slider area */
-
-section.banner-section.style-three .banner-carousel .slide-item {
-    height: 800px;
-}
-
-.slider-content.style-three {
-    top: 44%;
-}
-
-/* about style three */
-
-.about-area.style-three {
-    padding: 0px 0 73px;
-}
-
-.about-area.style-three.dark {
-    padding: 81px 0 73px;
-}
-
-.about-thumb.style-three {
-    margin-right: -82px;
-    margin-top: -113px;
-    margin-left: -96px;
-}
-
-.about-shape-three {
-    bottom: -62px;
-}
-
-.section-sub-title.about3 h4 {
-    font-size: 20px;
-}
-
-.section-main-title.about3 h2 {
-    font-size: 34px;
-}
-
-.about-area.style-three .barfiller {
-    width: 100%;
-}
-
-/* contact us style three */
-
-.contact-us-area.style-three {
-    padding: 70px 0 63px;
-}
-
-.contact-us-area.style-three::before {
-    display: none;
-}
-
-.contact-us-content.style-three h2 {
-    font-size: 29px;
-}
-
-.contact-us-list {
-    text-align: left;
-    margin-left: 34px;
-    margin-bottom: 40px;
-}
-
-.contact-us-items-box {
-    margin-left: 42px;
-}
-
-/* service style three */
-
-.service-single-box.style-three {
-    padding: 70px 17px 38px;
-}
-
-/* sucsess area */
-
-.sucsees-single-box {
-    padding: 68px 25px 65px;
-    margin-bottom: 30px;
-}
-
-.sucsees-item-box::before {
-    background-size: cover;
-}
-
-.sucsess-counter {
-    margin-bottom: 10px;
-}
-
-/* team area style three */
-
-.team-area.style-three {
-    padding: 66px 0 42px;
-}
-
-.team-items-box:hover .team-sub-icon {
-    bottom: 68%;
-}
-
-/* faq area */
-
-.faq-thumb {
-    display: none;
-}
-
-/* testimonila style three */
-
-.testimonial-area.style-three {
-    padding: 68px 0 65px;
-}
-
-.testi-items-three {
-    padding: 60px 12px 35px;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Four Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-area.style-four {
-    height: 800px;
-}
-
-.slider-four-thumb {
-    display: none;
-}
-
-.slider-content.four {
-    left: 44px;
-}
-
-/* about style four */
-
-.about-area.style-four {
-    padding: 64px 0 0px;
-}
-
-.about-thumb.four {
-    text-align: left;
-}
-
-.about-counter.four {
-    left: 0;
-}
-
-/* call do action */
-
-.call-do-action-area {
-    padding: 98px 0 57px;
-}
-
-.call-do-title h2 {
-    font-size: 36px;
-    line-height: 55px;
-}
-
-/* project style four */
-
-.project-area.style-four {
-    padding: 68px 0 44px;
-}
-
-.project-items-thumb img {
-    width: 100%;
-}
-
-/* like us area */
-
-.like-us-area {
-    padding: 68px 0 34px;
-}
-
-.like-us-single-box {
-    margin-bottom: 30px;
-}
-
-/* choose us area */
-
-.choose-discription p {
-    width: 100%;
-}
-
-/* blog area style four */
-
-.blog-area.style-four {
-    padding: 68px 0 50px;
-}
-
-.blog-four-thumb img {
-    width: 100%;
-}
-
-.blog-four-discription p {
-    font-size: 17px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Five Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-content.style-five {
-    width: 100%;
-    top: 50%;
-}
-
-.slider-discripton.inner p {
-    width: 90%;
-    font-size: 16px;
-}
-
-.slider-bottom {
-    display: none;
-}
-
-/* service area style five */
-
-.service-area.style-five {
-    padding: 67px 0 68px;
-}
-
-.service-disctription {
-    text-align: left;
-}
-
-.service-disctription span {
-    font-size: 16px;
-}
-
-.thrown-btn.service5 a {
-    font-size: 16px;
-    padding: 12px 12px;
-}
-
-/* conversion area */
-
-.conversion-area {
-    padding: 69px 0 0;
-}
-
-.conversion-text {
-    padding: 73px 57px 24px;
-}
-
-.conversion-area .barfiller {
-    width: 100%;
-}
-
-.call-do-action-area.style-five {
-    height: 730px;
-    padding: 324px 0 0;
-}
-
-/* about style five */
-
-.about-area.style-five {
-    padding: 73px 0 75px;
-}
-
-.about-counter-five {
-    width: 200px;
-    height: 320px;
-    padding: 10px 0 0;
-}
-
-.counter-five-content {
-    margin-bottom: 20px;
-}
-
-/* team area style five */
-
-.team-area.style-five {
-    padding: 68px 0 0;
-}
-
-.team-area.style-five.dark {
-    padding: 68px 0 43px;
-}
-
-.team-items-five {
-    margin-bottom: 30px;
-}
-
-.team-five-thumb img {
-    width: 100%;
-}
-
-/* brand area style five */
-
-.brand-area.style-five {
-    padding: 25px 0 55px;
-}
-
-/* working project area */
-
-.working-single-box::before {
-    display: none;
-}
-
-.working-single-box.two {
-    display: none;
-}
-
-.working-content {
-    left: 15px;
-}
-
-/* testimonial area style five */
-
-.testimonial-area.style-five {
-    padding: 68px 0 73px;
-}
-
-.testi-item-five {
-    display: none;
-}
-
-.testi-five-box {
-    padding: 35px 25px 30px;
-}   
-
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    
+        /* topbar css */
+
+           .topbar-area {
+            display: none !important;
+        }
+    
+        /* header area */
+    
+        .header-area {
+            display: none;
+        }
+    
+        /* slider area */
+    
+        .slider-area {
+            display: block !important;
+        }
+    
+        .slider-content {
+            padding: 144px 0 0;
+        }
+
+        .slider-sub-title h4 {
+            font-size: 20px;
+        }
+
+        .slider-main-title h1 {
+            font-size: 50px;
+        }
+    
+        .slider-thumb {
+            display: none;
+        }
+    
+        /* feature area */
+    
+        .feature-area {
+            padding: 0 0 76px;
+        }
+    
+        .feature-items {
+            margin-left: -59px;
+            position: relative;
+            left: 74px;
+        }
+
+        .feature-single-box {
+            margin: 0 9px;
+        }
+
+        .feature-single-box.active {
+            display: none;
+        }
+
+        .feature-title h4 a {
+            font-size: 20px;
+        }
+    
+        /* about area */
+    
+        .about-area {
+            padding: 0 0 66px;
+        }
+    
+        .about-thumb {
+            margin-bottom: 50px;
+        }
+
+        .about-thumb img {
+            width: 100%;
+        }
+    
+        .about-discribtion p {
+            margin: 38px 0 0px;
+        }
+
+        .about-shape {
+            display: none;
+        }
+
+        .about-area .barfiller {
+            width: 100%;
+        }
+
+        /* section title */
+
+        .section-sub-title h4 {
+            font-size: 20px;
+        }
+
+        .section-main-title h2 {
+            font-size: 30px;
+            line-height: 32px;
+        }
+    
+        /* contact area */
+    
+        .contact-area {
+            padding: 42px 0 48px;
+        }
+
+        .contact-discription p {
+            width: 93%;
+        }
+    
+        .contact-thumb {
+            display: none;
+        }
+    
+        /* service area*/
+    
+        .service-area {
+            padding: 60px 0 65px;
+        }
+    
+        .service-single-box {
+            margin-bottom: 30px;
+        }
+    
+        .service-thumb img {
+            width: 88%;
+        }
+    
+        .service-title {
+            right: -67%;
+        }
+    
+        /* pricing area */
+    
+        .pricing-area {
+            padding: 62px 0 28px;
+        }
+    
+        .pricing-single-box {
+            margin-bottom: 30px;
+        }
+    
+        /* faq area */
+    
+        .faq-area {
+            padding: 0 0 46px;
+        }
+
+        .accordion li a {
+            padding: 19px 16px 19px;
+        }
+
+        .accordion li p {
+            padding: 20px 17px 24px;
+        }
+    
+        /* project area */
+    
+        .project-area {
+            padding: 62px 0 83px;
+        }
+
+        .project-single-box {
+            margin-bottom: 50px;
+        }
+
+        .project-single-box.two {
+            margin-bottom: 140px;
+        }
+
+        .project-single-box.three {
+            margin-bottom: 90px;
+        }
+        
+        .project-thumb img {
+            width: 100%;
+        }
+    
+        .project-content {
+            width: 100%;
+            padding: 0 10px 0;
+        }
+    
+        /* testimonial area */
+    
+        .testimonial-area {
+            padding: 62px 0 44px;
+        }
+
+        .testi-single-box.two {
+            margin-top: 180px;
+        }
+
+        .testi-single-box.four {
+            margin-top: 180px;
+        }
+    
+        .testi-text {
+            margin-bottom: 80px;
+        }
+    
+        .owl-nav {
+            position: relative;
+            top: -70px;
+        }
+    
+        /* blog area */
+    
+        .blog-area {
+            padding: 62px 0 43px;
+        }
+    
+        .blog-single-box {
+            margin-bottom: 30px;
+        }
+    
+        .blog-title h4 a {
+            font-size: 22px;;
+        }
+    
+        .blog-bottom-title {
+            margin-right: 80px;
+        }
+    
+        /* footer area */
+    
+        .footer-area {
+            padding: 72px 0 0px;
+        }
+
+        .footer-area::before {
+            bottom: 90px;
+        }
+    
+        .footer-wiget {
+            margin-bottom: 30px;
+        }
+    
+        .footer-wiget-text p {
+            margin: 16px 0 25px;
+        }
+    
+        .footer-wiget-menu ul li a {
+            font-size: 16px;
+        }
+
+        .foter-box {
+            display: none;
+        }
+    
+        .copyright-text {
+            text-align: center;
+        }
+    
+        .footer-condition {
+            display: none;
+        }
+    
+    /*==================================================
+     <-- Euildint Home Page Style Two Css-->
+    ===================================================*/
+    
+        /* slider area */
+    
+        .banner-carousel.owl-carousel.owl-loaded.owl-drag {
+            display: inline-block;
+        }
+    
+        .banner-carousel .slide-item {
+            min-height: 750px;
+        }
+    
+        .slider-content.style-two {
+            top: 40%;
+            width: 96%;
+        }
+    
+        /* feature area style two */
+    
+        .feature-area.style-two {
+            padding: 0px 0 40px;
+        }
+    
+        .feature-items-box {
+            margin-bottom: 30px;
+        }
+    
+        /* about area style two */
+    
+        .about-area.style-two {
+            padding: 0 0 65px;
+        }
+    
+        /* heistory area */
+    
+        .row.history-bg {
+            padding: 78px 15px 80px;
+        }
+    
+        .history-single-box {
+            padding: 37px 20px 51px;
+        }
+
+        .history-items-thumb img {
+            transition: .5s;
+            width: 100%;
+        }
+    
+        .history-items-content {
+            padding: 11px 14px 21px;
+        }
+
+        .history-text h4 a {
+            font-size: 20px;
+        }
+
+        /* counter area */
+
+        .counter-single-box {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* call do area */
+
+        .call-do-action-area {
+            height: 875px;
+        }
+
+        .call-do-title h2 {
+            font-size: 32px;
+            line-height: 38px;
+        }
+    
+        /* service area style two */
+    
+        .service-items-box {
+            padding: 29px 20px 29px 14px;
+            display: inherit;
+            margin-bottom: 30px;
+        }
+    
+        .service-items-content p {
+            margin: 12px 0 55px;
+        }
+    
+        .service-items-thumb {
+            left: 0;
+        }
+    
+        .service-items-thumb img{
+            width: 100%;
+        }
+    
+        .service-items-icon {
+            top: 0px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+        .service-items-icon img {
+            width: auto;
+        }
+    
+        /* team area */
+    
+        .team-area {
+            padding: 64px 0 42px;
+        }
+        
+        .team-items-box {
+            margin-bottom: 145px;
+        }
+    
+        /* blog area style two */
+
+        .blog-thumb img {
+            width: 100%;
+        }
+    
+        .blog-meta.style-two {
+            width: 100%;
+        }
+    
+        .blog-content.style-two {
+            padding: 0px 15px 24px;
+        }
+    
+    
+    /*==================================================
+     <-- Euildint Home Page Style Three Css-->
+    ===================================================*/
+        /* slider area */
+    
+        .slider-content.style-two.three {
+            left: 30px;
+            top: 42%;
+        }
+    
+        /* about area styele three */
+    
+        .about-area.style-three {
+            padding: 64px 0 65px;
+        }
+    
+        .about-list {
+            margin-top: 25px;
+        }
+    
+        /* service area style three */
+    
+        .service-area.style-three {
+            padding: 60px 0 65px;
+        }
+    
+        .service-items-box-two {
+            margin-bottom: 30px;
+        }
+
+        .service-icon-thumb {
+            margin-top: 18px;
+        }
+
+        .service-items-content-two p {
+            margin: 5px 0 31px;
+        }
+
+        .service-items-thumb-two img {
+            width: 100%;
+        }
+    
+        .service-disctription {
+            display: none;
+        }
+    
+        .service-disctription span {
+            font-size: 16px;
+        }
+    
+        /* faq area */
+    
+        .faq-area.style-two {
+            padding: 0 0 204px;
+        }
+
+        .faq-content {
+            padding: 58px 10px 38px;
+        }
+    
+        .single-video.style-two {
+            top: 82px;
+        }
+
+        .faq-single-box {
+            padding: 73px 25px 60px;
+            top: 92px;
+            left: 0;
+        }
+    
+        /* work process area */
+    
+        .work-process-area {
+            padding: 32px 0 0px;
+        }
+    
+        .work-process-single-box {
+            margin-bottom: 70px;
+        }
+    
+        .work-process-single-box::before{
+            display: none;
+        }
+    
+        .work-process-shape {
+            display: none;
+        }
+
+        .work-process-number {
+            right: 75px;
+        }
+    
+        /* call do action area */
+    
+        .call-do-action-area.style-two {
+            padding: 20px 0 0;
+        }
+    
+        .call-do-title {
+            margin: 40px 0 30px;
+        }
+    
+        /* testimonial area */
+    
+        .testimonial-area.style-two {
+            padding: 62px 0 23px;
+        }
+    
+        .testi-itmes-box {
+            margin-bottom: 50px;
+        }
+    
+        .testi-items-content {
+            width: 106%;
+        }
 
 
 /*==================================================
@@ -4730,9 +2579,10 @@ section.banner-section.style-three .banner-carousel .slide-item {
 
     /* bratcom area */
 
-    .breatcome-area {
-        padding: 170px 0 100px;
+    .breatcome-title {
+        margin-top: -84px;
     }
+    
 
     /* about area inner page  */
 
@@ -4946,10 +2796,6 @@ section.banner-section.style-three .banner-carousel .slide-item {
         margin-bottom: 40px;
     }
 
-    .contact-title h4 {
-        font-size: 36px;
-    }
-
     .contact-single-box::before{
         display: none;
     }
@@ -4963,42 +2809,13 @@ section.banner-section.style-three .banner-carousel .slide-item {
         font-size: 36px;
     }
 
-    .thrown-btn.contact-us {
-        margin-bottom: 75px;
-    }
-
     /* pricing area inner page */
 
     .pricing-area.inner-page {
         padding: 64px 0 44px;
     }
-
-    /* contact inner page  */
-
-    .contact-inner-page {
-        padding: 70px 0 0;
-    }
-
-    .row.inner {
-        margin-bottom: 20px;
-    }
-
-    .contact-inner-box {
-        margin-bottom: 40px;
-    }
-
-    .contact-inner-box::before {
-        display: none;
-    }
     
 
-     /* error page  */
-
-     .error-area {
-        padding: 25px 0 76px;
-    }
-    
-    
 
 
 
@@ -5008,1099 +2825,630 @@ section.banner-section.style-three .banner-carousel .slide-item {
 /* small mobile :320px. */
 @media only screen and (min-width: 320px) and (max-width: 479px)  {
 
-.mobile-menu-area {
-    display: inherit;
-}
-
-.sidebar-menu {
-    display: inherit;
-}
-
-/* topbar area */
-
-.thrown-topbar-area {
-    display: none;
-}
-
-/* header area */
-
-.thrown-header-area {
-    display: none;
-}
-
-/* slider area */
-
-.banner-carousel .slide-item .image-layer {
-    background-position: none;
-    background-size: cover;
-}
-
-.banner-carousel .slide-item {
-    min-height: 800px;
-}
-
-.slider-content {
-    width: 100%;
-}
-
-.slider-sub-title h4 {
-    padding: 12px 30px 13px 8px;
-}
-
-.slider-main-title h1 {
-    font-size: 26px;
-    line-height: 46px;
-}
-
-.slider-discripton p {
-    font-size: 16px;
-    width: 93%;
-}
-
-.slider-sub-title.style-two h4 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.banner-section .owl-nav {
-    display: none;
-}
-
-.slider-shape {
-    display: none;
-}
-
-.slider-box {
-    display: none;
-}
-
-.slider-shape2 {
-    display: none;
-}
-
-/* about area */
-
-.about-area {
-    padding: 70px 0 43px;
-}
-
-.about-thumb {
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.about-thumb img {
-    width: 75%;
-}
-
-.about-shape {
-    right: 55%;
-}
-
-.about-shape img {
-    width: 100%;
-}
-
-.about-sub-title h4 {
-    margin-bottom: 0px;
-}
-
-.about-main-title {
-    margin-bottom: 10px;
-}
-
-.about-main-title h2 {
-    font-size: 25px;
-    line-height: 42px;
-}
-
-.about-discribtion p {
-    width: 100%;
-    font-size: 16px;
-}
-
-.about-single-box {
-    margin-bottom: 30px;
-    display: inline-block;
-}
-
-
-/* section title */
-
-.section-sub-title h4 {
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.section-main-title h2 {
-    font-size: 21px;
-    line-height: 34px;
-}
-
-/* contact us area */
-
-.contact-us-items {
-    text-align: center;
-}
-
-.contact-us-content {
-    width: 100%;
-    margin: auto;
-}
-
-.contact-us-content h2 {
-    font-size: 28px;
-    line-height: 42px;
-}
-
-.thrown-btn.contact-us a {
-    padding: 10px 34px;
-}
-
-.contact-us-items.two {
-    display: none;
-}
-
-/* service area */
-
-.service-area {
-    padding: 67px 0 39px;
-}
-
-.service-single-box {
-    padding: 47px 35px 42px;
-}
-
-.service-title h4 a {
-    font-size: 20px;
-}
-
-/* project area */
-
-.project-area {
-    padding: 66px 0 195px;
-}
-
-.column {
-    flex: 100%;
-    max-width: 100%;
-}
-
-/* team area */
-
-.team-area {
-    padding: 68px 0 72px;
-    position: relative;
-}
-
-.team-title h4 a {
-    font-size: 18px;
-}
-
-.team-shape1 {
-    display: none;
-}
-
-.team-shape2 {
-    display: none;
-}
-
-/* faq area */
-
-.faq-area {
-    padding: 92px 0 70px;
-    background-position: center center;
-}
-
-.tab_container {
-    margin-top: 0;
-}
-
-.accordion li a {
-    padding: 11px 10px 11px;
-}
-
-.accordion li a i {
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    margin-right: -10px;
-}
-
-.accordion li p {
-    padding: 0px 9px 17px;
-}
-
-/* sales area */
-
-.sales-report-area {
-    padding: 60px 0 74px;
-}
-
-.row.sales {
-    padding: 12px 0px 16px 0px;
-}
-
-.sales-discription p {
-    width: 100%;
-}
-
-.sales-list span i {
-    display: none;
-}
-
-
-/* counter area */
-
-.counter-area {
-    padding: 61px 0 34px;
-}
-
-.counter-shape {
-    display: none;
-}
-
-.counter-single-box {
-    margin-bottom: 30px;
-}
-
-.counter-numbar h4 {
-    font-size: 40px;
-}
-
-.counter-numbar span {
-    font-size: 40px;
-}
-
-.counter-content h5 {
-    font-size: 17px;
-}
-
-.counter-content p {
-    font-size: 14px;
-}
-
-
-/* testimonial area */
-
-.testimonial-area {
-    padding: 66px 0 64px;
-}
-
-.testi-single-box {
-    padding: 46px 8px 40px;
-}
-
-.testi-thumb {
-    float: inherit;
-    margin-right: 123px;
-    margin-bottom: 20px;
-}
-
-.testi-discription p {
-    margin: 10px 0 15px;
-    font-size: 16px;
-}
-
-.testi-icon-thumb {
-    right: 20px;
-    top: 43%;
-}
-
-/* blog area */
-
-.blog-area {
-    padding: 67px 0 44px;
-}
-
-.blog-single-box {
-    padding: 43px 15px 46px;
-    margin-bottom: 30px;
-}
-
-.blog-single-box::before {
-    background-size: cover;
-}
-
-.blog-meta span {
-    font-size: 14px;
-}
-
-.blog-discription p {
-    font-size: 16px;
-}
-
-.blog-bottom-title {
-    margin-right: 44px;
-}
-
-/* footer area */
-
-.footer-area {
-    padding: 73px 0 0px;
-}
-
-.footer-wiget {
-    margin-bottom: 30px;
-}
-
-.copyright-text {
-    text-align: center;
-}
-
-.copyright-text p {
-    font-size: 13px;
-}
-
-.copyright-text p a {
-    font-size: 16px;
-}
-
-.footer-condition {
-    text-align: center;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Two Css-->
-=================================================================*/
-
-/* topbar area */
-
-.sidebar-info {
-    display: none;
-}
-
-/* slider area */
-
-.slider-area {
-    height: 750px;
-}
-
-.slider-area.two {
-    height:750px;
-}
-
-.about-area.style-two {
-    padding: 72px 0 27px;
-}
-
-/* about area*/
-
-.about-thumb img {
-    width: 100%;
-}
-
-.about-counter {
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.about-video-icon {
-    top: 27%;
-    left: 36%;
-}
-
-.about-area span.process-bar {
-    font-size: 18px;
-}
-
-.about-area .barfiller {
-    width: 100%;
-}
-
-/* contact area */
-
-.contact-area {
-    padding: 60px 0 78px;
-}
-
-.section-title.contact {
-    text-align: center;
-}
-
-.section-main-title.contact {
-    margin-bottom: 0;
-}
-
-.contact-discription p {
-    width: 100%;
-}
-
-.contact-thumb {
-    display: none;
-}
-
-/* service area style two */
-
-.service-area.style-two {
-    padding: 66px 0 44px;
-}
-
-.service-items-box-two {
-    margin-bottom: 30px;
-}
-
-.service-items-content-two p {
-    margin: 24px 0 22px;
-}
-
-.service-items-thumb-two img {
-    width: 100%;
-}
-
-
-/* choose us area */
-
-.choose-area {
-    padding: 67px 0 250px;
-}
-
-.choose-area::after {
-    width: 100%;
-}
-
-.section-sub-title.choose h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.section-main-title.choose h2 {
-    font-size: 26px;
-    line-height: 42px;
-}
-
-.choose-content p {
-    width: 83%;
-}
-
-.choose-icon {
-    float: inherit;
-    margin-bottom: 20px;
-}
-
-.single-video.style-two {
-    display: none;
-}
-
-.choose-contact {
-    width: 100%;
-    padding: 36px 0px 0;
-}
-
-.subscribe-title {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.choose-area .form-box input {
-    width: 100%;
-}
-
-.form-box-button {
-    margin-left: -64px;
-}
-
-/* work process area */
-
-.work-process-area {
-    padding: 66px 0 14px;
-}
-
-.work-process-single-box {
-    padding: 0px 10px 0;
-    margin-bottom: 20px;
-}
-
-/* pricing area */
-
-.pricing-area {
-    padding: 66px 0 0px;
-}
-
-.pricing-single-box {
-    padding: 50px 40px 48px;
-    margin-bottom: 30px;
-}
-
-
-/* team area css */
-
-.team-area.style-two {
-    padding: 63px 0 35px;
-}
-
-.section-main-title.team2 {
-    margin-bottom: 20px;
-}
-
-.team-discription {
-    margin-left: 0;
-    width: 100%;
-    margin-bottom: 48px;
-}
-
-.team-items-box {
-    margin-bottom: 30px;
-}
-
-.team-item-thumb img {
-    width: 100%;
-}
-
-/* testimonial area */
-
-.testimonial-area.style-two {
-    padding: 72px 0 142px;
-}
-
-.testimonial-items-box {
-    text-align: center;
-}
-
-.testimonial-item-thumb {
-    float: inherit;
-    margin-left: 81px;
-}
-
-.testimonial-discription p {
-    font-size: 16px;
-}
-
-.testimonial-title h4 {
-    font-size: 18px;
-    display: block;
-    margin-left: 56px;
-    margin-bottom: 9px;
-}
-
-.testimonial-shape {
-    display: none;
-}
-
-.testimonial-area.style-two .owl-nav {
-    bottom: -69px;
-    left: 53%;
-    transform: translateX(-50%);
-}
-
-
-/* contact area styel three */
-
-.contact-area-three {
-    padding: 63px 0 73px;
-}
-
-.section-main-title.contact-thrree h2 {
-    font-size: 26px;
-    line-height: 32px;
-}
-
-.contact-list span {
-    font-size: 14px;
-}
-
-.contact-list span i {
-    margin-right: 5px;
-}
-
-.contact-icon {
-    margin-right: 6px;
-}
-
-.contact-box {
-    margin-top: 40px;
-    padding: 42px 12px 53px;
-}
-
-.form-box-button.contact {
-    margin-left: 0;
-}
-
-
-/* blog style two */
-
-.blog-title.style-two h4 a {
-    font-size: 20px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Three Css-->
-=================================================================*/
-
-/* slider area */
-
-section.banner-section.style-three .banner-carousel .slide-item {
-    height: 700px;
-}
-
-.slider-content.style-three {
-    top: 44%;
-}
-
-.slider-sub-title.style-three h4 {
-    font-size: 22px;
-}
-
-.slider-main-title.style-three h1 {
-    line-height: 45px;
-    font-size: 26px;
-}
-
-/* about style three */
-
-.about-area.style-three {
-    padding: 0px 0 15px;
-}
-
-.about-area.style-three.dark {
-    padding: 81px 0 73px;
-}
-
-.about-thumb.style-three {
-    margin-right: -82px;
-    margin-top: -77px;
-    margin-left: -96px;
-}
-
-.about-shape-three {
-    bottom: -62px;
-    right: 62px;
-}
-
-.section-sub-title.about3 h4 {
-    font-size: 18px;
-}
-
-.section-main-title.about3 h2 {
-    font-size: 33px;
-}
-
-.about-area.style-three .barfiller {
-    width: 100%;
-}
-
-.about-area .barfiller .tip {
-    font-size: 14px;
-}
-
-.about-bottom {
-    display: inherit;
-}
-
-.about-bottom-thumb {
-    margin-bottom: 15px;
-}
-
-.about-bottom-title {
-    display: inline-block;
-    margin-right: 18px;
-}
-
-.about-signiture {
-    display: inline-block;
-    position: relative;
-    top: -46px;
-    left: 90px;
-}
-
-/* contact us style three */
-
-.contact-us-area.style-three {
-    padding: 70px 0 63px;
-}
-
-.contact-us-area.style-three::before {
-    display: none;
-}
-
-.contact-us-content.style-three h2 {
-    font-size: 29px;
-}
-
-.contact-us-list {
-    text-align: left;
-    margin-bottom: 40px;
-}
-
-.contact-us-list span i {
-    display: none;
-}
-
-.contact-us-items-box {
-    margin-left: 0;
-    padding: 38px 50px 44px;
-}
-
-/* service style three */
-
-.service-single-box.style-three {
-    padding: 70px 17px 38px;
-}
-
-/* sucsess area */
-
-.sucsees-single-box {
-    padding: 68px 25px 65px;
-    margin-bottom: 30px;
-}
-
-.sucsees-item-box::before {
-    background-size: cover;
-}
-
-.sucsess-counter {
-    margin-bottom: 10px;
-}
-
-/* team area style three */
-
-.team-area.style-three {
-    padding: 66px 0 42px;
-}
-
-.team-items-box:hover .team-sub-icon {
-    bottom: 68%;
-}
-
-/* faq area */
-
-.faq-thumb {
-    display: none;
-}
-
-/* testimonila style three */
-
-.testimonial-area.style-three {
-    padding: 68px 0 65px;
-}
-
-.testi-items-three {
-    padding: 60px 12px 35px;
-}
-
-
-/*===============================================================
-<-- Thrown Home Page Four Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-area.style-four {
-    height: 700px;
-}
-
-.slider-four-thumb {
-    display: none;
-}
-
-.slider-content.four {
-    left: 16px;
-}
-
-.slider-sub-title.four h4 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.slider-main-title.four h1 {
-    line-height: 52px;
-    font-size: 29px;
-}
-
-/* about style four */
-
-.about-area.style-four {
-    padding: 64px 0 0px;
-}
-
-.about-thumb.four {
-    text-align: left;
-}
-
-.about-main-title.style-two h2 {
-    line-height: 42px;
-}
-
-.about-counter.four {
-    left: 0;
-    width: 100%;
-    height: 111px;
-    padding: 0px 16px;
-}
-
-.about-counter-numbar h5 {
-    font-size: 60px;
-    margin-right: 10px;
-}
-
-.about-counter-discription p {
-    font-size: 18px;
-}
-
-/* call do action */
-
-.call-do-action-area {
-    padding: 98px 0 57px;
-}
-
-.video-icon.style-four a {
-    height: 90px;
-    width: 90px;
-    line-height: 97px;
-}
-
-.call-do-title h2 {
-    font-size: 23px;
-    line-height: 42px;
-}
-
-/* service area */
-
-.service-four-title h4 a {
-    font-size: 22px;
-}
-
-/* project style four */
-
-.project-area.style-four {
-    padding: 68px 0 44px;
-}
-
-.project-items-thumb img {
-    width: 100%;
-}
-
-/* like us area */
-
-.like-us-area {
-    padding: 68px 0 34px;
-}
-
-.like-us-single-box {
-    margin-bottom: 30px;
-}
-
-/* choose us area */
-
-.choose-discription p {
-    width: 100%;
-}
-
-/* blog area style four */
-
-.blog-area.style-four {
-    padding: 68px 0 50px;
-}
-
-.blog-four-thumb img {
-    width: 100%;
-}
-
-.blog-four-discription p {
-    font-size: 17px;
-}
-
-/*===============================================================
-<-- Thrown Home Page Five Css-->
-=================================================================*/
-
-/* slider area */
-
-.slider-content.style-five {
-    width: 100%;
-    top: 50%;
-    left: 6px;
-}
-
-.slider-sub-title.style-five h4 {
-    font-size: 20px;
-}
-
-.slider-discripton.inner p {
-    width: 98%;
-    font-size: 16px;
-}
-
-.slider-bottom {
-    display: none;
-}
-
-/* service area style five */
-
-.service-area.style-five {
-    padding: 67px 0 68px;
-}
-
-.service-disctription {
-    text-align: left;
-}
-
-.service-disctription span {
-    font-size: 16px;
-}
-
-.thrown-btn {
-    margin-left: 0;
-    margin-top: 0;
-}
-
-.thrown-btn.service5 a {
-    font-size: 12px;
-    padding: 10px 17px;
-}
-
-/* conversion area */
-
-.conversion-area {
-    padding: 69px 0 0;
-}
-
-.conversion-main-title h2 {
-    font-size: 24px;
-    line-height: 32px;
-}
-
-.conversion-list span i {
-    display: none;
-}
-
-.conversion-text {
-    padding: 73px 10px 24px;
-}
-
-.choose-content.style-five h4 {
-    font-size: 20px;
-}
-
-.choose-content p {
-    width: 100%;
-}
-
-.conversion-area .barfiller {
-    width: 100%;
-}
-
-.call-do-action-area.style-five {
-    height: 730px;
-    padding: 324px 0 0;
-}
-
-/* about style five */
-
-.about-area.style-five {
-    padding: 73px 0 75px;
-}
-
-.about-counter-five {
-    width: 174px;
-    height: 267px;
-    padding: 10px 0 0;
-    top: 0;
-}
-
-.counter-five-content {
-    margin-bottom: 20px;
-}
-
-.counter-five-numbar h4 {
-    font-size: 24px;
-}
-
-.counter-five-numbar span {
-    font-size: 24px;
-}
-
-.counter-five-discription p {
-    color: #FFF;
-    font-size: 14px;
-}
-
-.about-discribtion.style-two p {
-    width: 100%;
-}
-
-.about-area .barfiller {
-    width: 100%;
-}
-
-/* working project area */
-
-.working-project-area .row.working {
-    margin: 0px -23px;
-}
-
-.working-single-box.two {
-    display: none;
-}
-
-/* team area style five */
-
-.team-area.style-five {
-    padding: 68px 0 0;
-}
-
-.team-area.style-five.dark {
-    padding: 68px 0 43px;
-}
-
-.team-items-five {
-    margin-bottom: 30px;
-}
-
-.team-five-thumb img {
-    width: 100%;
-}
-
-/* brand area style five */
-
-.brand-area.style-five {
-    padding: 25px 0 55px;
-}
-
-/* working project area */
-
-.working-single-box::before {
-    display: none;
-}
-
-.working-single-box.two {
-    display: none;
-}
-
-.working-content {
-    left: 15px;
-}
-
-/* testimonial area style five */
-
-.testimonial-area.style-five {
-    padding: 68px 0 73px;
-}
-
-.testi-item-five {
-    display: none;
-}
-
-.testi-five-box {
-    padding: 35px 8px 30px;
-}
-
-.testi-main-title h2 {
-    font-size: 28px;
-    line-height: 40px;
-    margin-bottom: 28px;
-}
-
-.testi-five-discription p {
-    font-size: 16px;
-    width: 100%;
-}
-
-.testimonial-area.style-five .owl-nav {
-    right: 30px;
-}
+        /* topbar css */
+
+        .topbar-area {
+            display: none !important;
+        }
+    
+        /* header area */
+    
+        .header-area {
+            display: none;
+        }
+    
+        /* slider area */
+    
+        .slider-area {
+            display: block !important;
+            height: 750px;
+        }
+    
+        .slider-content {
+            padding: 144px 0 0;
+        }
+
+        .slider-sub-title h4 {
+            font-size: 20px;
+            margin-bottom: 22px;
+        }
+
+        .slider-main-title h1 {
+            font-size: 32px;
+            line-height: 33px;
+        }
+
+        .slider-discripton p {
+            font-size: 13px;
+        }
+
+        .eulding-btn a {
+            font-size: 15px;
+        }
+    
+        .slider-thumb {
+            display: none;
+        }
+    
+        /* feature area */
+    
+        .feature-area {
+            padding: 0 0 76px;
+        }
+    
+        .feature-single-box {
+            display: none;
+        }
+    
+        /* about area */
+    
+        .about-area {
+            padding: 0 0 66px;
+        }
+    
+        .about-thumb {
+            margin-bottom: 50px;
+        }
+
+        .about-thumb img {
+            width: 100%;
+        }
+    
+        .about-discribtion p {
+            margin: 22px 0 0px;
+            font-size: 14px;
+        }
+
+        .about-shape {
+            display: none;
+        }
+
+        .about-area .barfiller {
+            width: 100%;
+        }
+
+        .about-area span.process-bar {
+            font-size: 14px;
+        }
+
+        .about-area .barfiller .tip {
+            font-size: 14px;
+        }
+
+        /* section title */
+
+        .section-sub-title h4 {
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+
+        .section-main-title h2 {
+            font-size: 21px;
+            line-height: 22px;
+        }
+    
+        /* contact area */
+    
+        .contact-area {
+            padding: 42px 0 48px;
+        }
+
+        .contact-discription p {
+            width: 100%;
+            font-size: 15px;
+        }
+    
+        .contact-thumb {
+            display: none;
+        }
+    
+        /* service area*/
+    
+        .service-area {
+            padding: 60px 0 65px;
+        }
+
+        .service-single-box {
+            margin-bottom: 30px;
+        }
+    
+        .service-thumb img {
+            width: 88%;
+        }
+    
+        .service-title {
+            right: -72%;
+        }
+
+        .service-title h4 {
+            font-size: 20px;
+        }
+    
+        /* pricing area */
+    
+        .pricing-area {
+            padding: 62px 0 28px;
+        }
+    
+        .pricing-single-box {
+            margin-bottom: 30px;
+            padding: 50px 11px 0;
+        }
+
+        .pircing-btn a {
+            font-size: 20px;
+        }
+    
+        /* faq area */
+    
+        .faq-area {
+            padding: 0 0 46px;
+        }
+
+        .accordion li a {
+            padding: 19px 8px 19px;
+            font-size: 16px;
+        }
+
+        .accordion a:before {
+            display: none;
+        }
+
+        .accordion a::after {
+            display: none;
+        }
+
+        .accordion li p {
+            padding: 20px 10px 24px;
+            font-size: 13px;
+        }
+    
+        /* project area */
+    
+        .project-area {
+            padding: 62px 0 83px;
+        }
+
+        .project-single-box {
+            margin-bottom: 50px;
+        }
+
+        .project-single-box.two {
+            margin-bottom: 140px;
+        }
+
+        .project-single-box.three {
+            margin-bottom: 90px;
+        }
+        
+        .project-thumb img {
+            width: 100%;
+        }
+    
+        .project-content {
+            width: 100%;
+            padding: 0 10px 0;
+        }
+
+        .project-text h4 a {
+            font-size: 18px;
+        }
+
+        .project-icon a i {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+        }
+    
+        /* testimonial area */
+    
+        .testimonial-area {
+            padding: 62px 0 44px;
+        }
+
+        .testi-single-box {
+            padding: 15px 10px 17px;
+        }
+
+        .testi-single-box.two {
+            margin-top: 180px;
+        }
+
+        .testi-single-box.four {
+            margin-top: 180px;
+        }
+
+        .testi-discription p {
+            font-size: 14px;
+        }
+    
+        .testi-text {
+            margin-bottom: 80px;
+        }
+
+        .testi-text p {
+            font-size: 15px;
+        }
+    
+        .owl-nav {
+            position: relative;
+            top: -70px;
+        }
+    
+        /* blog area */
+    
+        .blog-area {
+            padding: 62px 0 43px;
+        }
+    
+        .blog-single-box {
+            margin-bottom: 30px;
+        }
+    
+        .blog-title h4 a {
+            font-size: 17px;
+            margin-bottom: 15px;
+            line-height: 33px;
+        }
+
+        .blog-meta span {
+            font-size: 13px;
+        }
+
+        .blog-meta span i {
+            margin-right: 3px;
+            font-size: 12px;
+        }
+
+        .blog-discription p {
+            font-size: 14px;
+        }
+
+        .blog-bottom-shape {
+            margin-right: 6px;
+        }
+    
+        .blog-bottom-title {
+            margin-right: 20px;
+        }
+
+        .blog-bottom-title h4 {
+            font-size: 16px;
+        }
+    
+        /* footer area */
+    
+        .footer-area {
+            padding: 72px 0 25px;
+        }
+
+        .footer-area::before {
+            bottom: 90px;
+        }
+    
+        .footer-wiget {
+            margin-bottom: 30px;
+        }
+    
+        .footer-wiget-text p {
+            margin: 16px 0 25px;
+            font-size: 14px;
+        }
+    
+        .footer-wiget-menu ul li a {
+            font-size: 14px;
+        }
+
+        .foter-box {
+            display: none;
+        }
+    
+        .copyright-text {
+            text-align: center;
+        }
+
+        .copyright-text p {
+            font-size: 14px;
+        }
+
+        .copyright-text p a {
+            font-size: 12px;
+        }
+    
+        .footer-condition {
+            display: none;
+        }
+    
+    /*==================================================
+        <-- Euildint Home Page Style Two Css-->
+    ===================================================*/
+    
+        /* slider area */
+    
+        .banner-carousel.owl-carousel.owl-loaded.owl-drag {
+            display: inline-block;
+        }
+    
+        .banner-carousel .slide-item {
+            min-height: 700px;
+        }
+    
+        .slider-content.style-two {
+            top: 40%;
+            width: 96%;
+        }
+    
+        /* feature area style two */
+    
+        .feature-area.style-two {
+            padding: 0px 0 40px;
+        }
+    
+        .feature-items-box {
+            margin-bottom: 30px;
+            padding: 63px 12px 70px;
+        }
+    
+        /* about area style two */
+    
+        .about-area.style-two {
+            padding: 0 0 65px;
+        }
+
+        .about-counter {
+            display: none;
+        }
+
+        .about-signiture {
+            display: none;
+        }
+    
+        /* heistory area */
+    
+        .row.history-bg {
+            padding: 78px 10px 80px;
+        }
+
+        .history-single-box {
+            padding: 37px 8px 51px;
+        }
+
+        .history-content p {
+            font-size: 15px;
+            margin: 20px 0 30px;
+        }
+
+        .history-content a {
+            font-size: 16px;
+        }
+
+        .history-items-thumb img {
+            transition: .5s;
+            width: 100%;
+        }
+    
+        .history-items-content {
+            padding: 11px 8px 21px;
+        }
+
+        .history-text h4 a {
+            font-size: 17px;
+            line-height: 30px;
+        }
+
+        /* counter area */
+
+        .counter-single-box {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* call do area */
+
+        .call-do-action-area {
+            height: 875px;
+        }
+
+        .single-video {
+            top: 54%;
+        }
+
+        .call-do-title h2 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    
+        /* service area style two */
+    
+        .service-items-box {
+            padding: 29px 20px 29px 14px;
+            display: inherit;
+            margin-bottom: 30px;
+        }
+    
+        .service-items-content p {
+            margin: 12px 0 55px;
+        }
+    
+        .service-items-thumb {
+            left: 0;
+        }
+    
+        .service-items-thumb img{
+            width: 100%;
+        }
+    
+        .service-items-icon {
+            top: 0px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+        .service-items-icon img {
+            width: auto;
+        }
+    
+        /* team area */
+    
+        .team-area {
+            padding: 64px 0 42px;
+        }
+        
+        .team-items-box {
+            margin-bottom: 145px;
+        }
+    
+        /* blog area style two */
+
+        .blog-thumb img {
+            width: 100%;
+        }
+    
+        .blog-meta.style-two {
+            width: 100%;
+        }
+
+        .blog-meta-date {
+            margin-right: 5px;
+        }
+
+        .blog-title.style-two h4 a {
+            font-size: 18px;
+        }
+    
+        .blog-content.style-two {
+            padding: 0px 15px 24px;
+        }
+    
+    
+    /*==================================================
+        <-- Euildint Home Page Style Three Css-->
+    ===================================================*/
+        /* slider area */
+    
+        .slider-content.style-two.three {
+            left: 14px;
+            top: 42%;
+        }
+    
+        /* about area styele three */
+    
+        .about-area.style-three {
+            padding: 64px 0 65px;
+        }
+    
+        .about-list {
+            margin-top: 25px;
+        }
+
+        .about-list ul li {
+            font-size: 16px;
+        }
+    
+        /* service area style three */
+    
+        .service-area.style-three {
+            padding: 60px 0 65px;
+        }
+    
+        .service-items-box-two {
+            margin-bottom: 30px;
+            padding: 22px 5px 20px;
+        }
+
+        .service-icon-thumb {
+            float: inherit;
+        }
+
+        .service-items-title h4 a {
+            font-size: 20px;
+        }
+
+        .service-items-content-two p {
+            margin: 5px 0 31px;
+        }
+
+        .service-items-thumb-two img {
+            width: 100%;
+        }
+    
+        .service-disctription {
+            display: none;
+        }
+    
+        .service-disctription span {
+            font-size: 16px;
+        }
+    
+        /* faq area */
+    
+        .faq-area.style-two {
+            padding: 0 0 204px;
+        }
+
+        .faq-content {
+            padding: 58px 10px 38px;
+        }
+    
+        .single-video.style-two {
+            top: 82px;
+        }
+
+        .faq-single-box {
+            padding: 73px 10px 60px;
+            top: 92px;
+            left: 0;
+        }
+
+        .faq-title h4 {
+            font-size: 17px;
+        }
+    
+        /* work process area */
+    
+        .work-process-area {
+            padding: 32px 0 0px;
+        }
+    
+        .work-process-single-box {
+            margin-bottom: 70px;
+            padding: 0px 30px 0;
+        }
+    
+        .work-process-single-box::before{
+            display: none;
+        }
+    
+        .work-process-shape {
+            left: 18px;
+            display: none;
+        }
+    
+        /* call do action area */
+    
+        .call-do-action-area.style-two {
+            padding: 20px 0 0;
+        }
+    
+        .call-do-title {
+            margin: 40px 0 30px;
+        }
+    
+        /* testimonial area */
+    
+        .testimonial-area.style-two {
+            padding: 62px 0 23px;
+        }
+    
+        .testi-itmes-box {
+            margin-bottom: 50px;
+        }
+    
+        .testi-items-content {
+            width: 111%;
+        }
 
 
 /*==================================================
@@ -6109,15 +3457,15 @@ section.banner-section.style-three .banner-carousel .slide-item {
 
     /* bratcom area */
 
-    .breatcome-area {
-        padding: 120px 0 100px;
+    .breatcome-title {
+        margin-top: -84px;
     }
 
     .breatcome-title h1 {
         font-size: 40px;
     }
 
-    .breatcome-text {
+    .bratcome-text {
         bottom: -127px;
         left: 0;
     }
@@ -6151,12 +3499,12 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     .service-details-content h4 a {
-        font-size: 27px;
+        font-size: 25px;
         line-height: 36px;
     }
 
     .service-details-content p {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .widget-categories-box {
@@ -6178,7 +3526,7 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     .blog-quote-conent p {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .blog-quote-conent h4 {
@@ -6206,7 +3554,7 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     .blog-standard-content p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .blog-standard-area .owl-prev {
@@ -6251,7 +3599,7 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     .blog-details-discription p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .blog-details-list {
@@ -6268,7 +3616,7 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     .blog-team-content p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .ba-blog-details-social-icons.two {
@@ -6403,8 +3751,9 @@ section.banner-section.style-three .banner-carousel .slide-item {
     }
 
     p.discription {
-        font-size: 16px;
+        font-size: 14px;
     }
+
 
     /* team details area */
 
@@ -6428,12 +3777,8 @@ section.banner-section.style-three .banner-carousel .slide-item {
         font-size: 14px;
     }
 
-    .team-details-title h4 {
-        font-size: 28px;
-    }
-
     .team-details-discription p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     /* contact area */
@@ -6444,10 +3789,6 @@ section.banner-section.style-three .banner-carousel .slide-item {
     
     .contact-single-box {
         margin-bottom: 40px;
-    }
-
-    .contact-title h4 {
-        font-size: 30px;
     }
 
     .contact-single-box::before{
@@ -6468,40 +3809,11 @@ section.banner-section.style-three .banner-carousel .slide-item {
         line-height: 32px;
     }
 
-    .thrown-btn.contact-us {
-        margin-bottom: 75px;
-    }
-
     /* pricing area inner page */
 
     .pricing-area.inner-page {
         padding: 64px 0 44px;
     }
-
-    /* contact inner page  */
-
-    .contact-inner-page {
-        padding: 70px 0 0;
-    }
-
-    .row.inner {
-        margin-bottom: 20px;
-    }
-
-    .contact-inner-box {
-        margin-bottom: 40px;
-    }
-
-    .contact-inner-box::before {
-        display: none;
-    }
-    
-     /* error page  */
-
-     .error-area {
-        padding: 25px 0 76px;
-    }
-    
         
     
 

@@ -1,10 +1,10 @@
 /*
 
-font-family: 'Heebo', sans-serif;
-font-family: 'Jost', sans-serif;
+font-family: 'Rubik', sans-serif;
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html,
 body {
     overflow-x: hidden;
@@ -20,12 +20,12 @@ html {
 }
 
 body {
-    color: #666;
+    color: #747474;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 p {
@@ -40,10 +40,11 @@ h3,
 h4,
 h5,
 h6 {
-    color: #010212;
-    font-family: 'Jost', sans-serif;
+    color: #18191D;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     margin-bottom: 0;
+    margin-top: 11px;
     line-height: 1.2;
     font-weight: 700;
     -webkit-transition: .5s;
@@ -57,7 +58,7 @@ a {
 }
 
 a {
-    color: #0D0E14;
+    color: #141422;
 }
 
 a:focus,
@@ -150,13 +151,13 @@ ul {
 
 input:focus,
 button:focus {
-    border-color: #ea5b1b;
-    outline-color: #ea5b1b;
-    border: 1px solid #ea5b1b;
+    border-color: #F60;
+    outline-color: #F60;
+    border: 1px solid #F60;
 }
 
 textarea:focus {
-    border-color: #ea5b1b;
+    border-color: #F60;
     outline-color: #F602;
 }
 
@@ -168,7 +169,7 @@ hr {
 }
 
 hr.style-2 {
-    border-bottom: 1px dashed #ea5b1b;
+    border-bottom: 1px dashed #F60;
 }
 
 hr.mp-0 {
@@ -205,7 +206,7 @@ ul {
 
 /* Default Background */
 .bg_color {
-    background: #ea5b1b;
+    background: #43baff;
 }
 
 .bg_color2 {
@@ -242,19 +243,19 @@ ul {
 
 
 *::-moz-selection {
-    background: #ea5b1b;
+    background: #4fc1f0;
     color: #454545;
     text-shadow: none;
 }
 
 ::-moz-selection {
-    background: #ea5b1b;
+    background: #4fc1f0;
     color: #454545;
     text-shadow: none;
 }
 
 ::selection {
-    background: #ea5b1b;
+    background: #4fc1f0;
     color: #454545;
     text-shadow: none;
 }
@@ -760,10 +761,6 @@ ul {
 
 .pr-10 {
     padding-right: 10px;
-}
-
-.pr-0 {
-    padding-right:0px;
 }
 
 /* Margin Top Css */

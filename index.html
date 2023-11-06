@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
+	<!-- <link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png"> -->
 	<!-- bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
 	<!-- carousel CSS -->
@@ -31,985 +31,794 @@
 	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all">
 	<!-- venobox CSS -->
 	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all">
+
+	<!-- Slick Slider -->
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css"/>
+
 	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css" type="text/css" media="all">
+
 	<!-- Main Style CSS -->
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
-	<!-- Dropdown CSS -->
-	<link rel="stylesheet" href="assets/css/dropdown.css" type="text/css" media="all">
+
 	<!-- responsive CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
 
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
+<style>
+	.header-area.style-two {
+    margin-bottom: 0px;
+    background: #fff;
+    z-index: 99;
+}
+.header-munu {
+    text-align: left;
+    margin-top: -35px;
+}
+.header-social.style-two {
+    margin-left: 90px;
+}
+.slider-content.style-two {
+    top: 35%;
+}
+.banner-carousel .slide-item .image-layer {
+    height: 78%;
+}
+.about-area.style-three {
+    padding: 120px 0 194px;
+    margin-top: -225px;
+}
+</style>
 
 <body>
 	<!-- loder -->
-	<div class="loader_bg">
+	  <div class="loader-wrapper">
 		<div class="loader"></div>
+		<div class="loder-section left-section"></div>
+		<div class="loder-section right-section"></div>
 	</div>
 	<!--==================================================-->
-	<!-- Start Thrown Top Bar Area -->
+	<!-- Start Euildint Top Bar Style Two Area -->
 	<!--==================================================-->
-	<div class="thrown-topbar-area style-five">
-		<div class="container">
+	<!-- <div class="topbar-area style-two d-flex align-items-center">
+		<div class="container-fluid p-90">
 			<div class="row align-items-center">
-				<div class="col-lg-6">
-					<div class="topbar-info style-five">
-						<span><i class="bi bi-geo-alt-fill"></i> P.O. Box: 35417, M9 -
-							Mussafah Abu Dhabi -UAE</span>
+				<div class="col-lg-6 col-md-6">
+					<div class="topbar-adress">
+						<ul>
+							<li class="line"><a href="#">Address : 3517 W. Gray St. Utica, Pennsylvania 57867</a></li>
+							<li><a href="#">info@example.com</a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<div class="topbar-social-item">
-						<h4>FOLLOW US</h4>
+				<div class="col-lg-6 col-md-6">
+					<div class="topbar-menu">
 						<ul>
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li class="active"><a href="#"><i class="fab fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li class="active"><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li class="line"><a href="#">Help</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Contact</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!--==================================================-->
-	<!-- End Thrown Top Bar Area -->
+	<!-- End Euildint Top Bar Style Two Area -->
 	<!--==================================================-->
 
 	<!--==================================================-->
-	<!-- Start Thrown Header Area -->
+	<!-- Start Euildint Header Style Two Area -->
 	<!--==================================================-->
-	<div class="thrown-header-area style-five" id="sticky-header">
-		<div class="container">
+	<div class="header-area style-two" id="navbar">
+		<div class="container-fluid ">
 			<div class="row align-items-center">
-				<div class="col-lg-3">
-					<div class="header-logo style-five">
-						<a href="index.html"><img src="assets/img/logo.svg" width="84px"  alt=""></a>
+				<div class="col-lg-12">
+					<div class="header-logo">
+						<a href="index.html"><img src="assets/img/logo1.png" width="300px" alt="logo"></a>
 					</div>
 				</div>
-				<div class="col-lg-9">
-					<div class="thrown-menu style-five">
-						<ul style=" margin-left: -95px;">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="#">Products <i class="fas fa-chevron-down"></i></a>
+				<div class="">
+					<!--start header menu -->
+					<div class="header-munu style-two ">
+						<ul>
+							<li><a href="index.html" class="text-dark">Home</a></li>
+							<li><a href="#!" class="text-dark">About</a></li>
+							<li><a href="#!" class="text-dark">Pumps and MEP Works</a></li>
+
+							<li><a href="" class="text-dark">Products <i class="bi bi-plus"></i></a>
 								<div class="sub-menu">
 									<ul>
 										<li><a href="#!">Valves & Accessories</a></li>
 										<li><a href="#!">Mixers and Sanitary Accessories</a></li>
-										<li><a href="#!">Hand Tools &amp; Equipment’s</a></li>
-										<li><a href="#!">Hardware’s &amp; Safety Equipment’s</a></li>
-										<li><a href="#!">Pipes &amp; Fittings</a></li>
-
+										<li><a href="#!">Hand Tools & Equipment’s</a></li>
+										<li><a href="#!">Hardware’s & Safety Equipment’s</a></li>
+										<li><a href="#!">Pipes & Fittings</a></li>
 									</ul>
 								</div>
 							</li>
-							<li><a href="#">Paint Products <i class="fas fa-chevron-down"></i></a>
+							<li><a href="#" class="text-dark"> Paint Products <i class="bi bi-plus"></i></a>
 								<div class="sub-menu">
 									<ul>
 										<li><a href="#!">National Paint</a></li>
 										<li><a href="#!">Asian Paint</a></li>
-
 									</ul>
 								</div>
 							</li>
-							<li><a href="#">Stores <i class="fas fa-chevron-down"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="#!">Showroom</a></li>
-										<li><a href="#!">Warehouse</a></li>
-										<li><a href="#!">Asian paints showroom</a></li>
-										<li><a href="#!">National paints showroom</a></li>
-										<li><a href="#!">Showroom</a></li>
-
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">More <i class="fas fa-chevron-down"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="#!">Pumps and MEP Works</a></li>
-										<li><a href="#!">Gallery</a></li>
-									</ul>
-								</div>
-							</li>
-							
+							<li><a href="#!" class="text-dark">Gallery</a></li>
 						
+							<li><a href="contact.html" class="text-dark">Get In Touch</a></li>
 						</ul>
-					</div>
-					<div class="thrown-search-button style-five">
-						<div class="thrown-social-menu">
+						<div class="header-social style-two">
 							<ul>
-								<li><a class="search-box-btn search-box-outer" href="#"><i class="bi bi-search"></i></a>
-								</li>
-								<li><a class="handbag" href="#"><i class="bi bi-cart-fill"></i></a></li>
+								<li class="upper"><a class="text-dark search-box-btn search-box-outer" href="#"><i class="bi bi-person-circle text-dark"></i></a></li>
+								<li class="upper"><a class="text-dark search-box-btn search-box-outer" href="#"><i class="bi bi-search text-dark"></i></a></li>
+								<li class="upper"><a class="text-dark search-box-btn search-box-outer" href="#"><i class="bi bi-cart text-dark"></i></a></li>
 							</ul>
 						</div>
-						<div class="thrown-btn style-five">
-							<a class="header-button" href="contact-us.html">Contact Us <span></span></a>
+						<div class="header-call-section">
+							<div class="header-call-icon">
+								<i class="bi bi-telephone-plus text-dark"></i>
+							</div>
+							<div class="header-call-title">
+								<a href="#">Need help?  Call us: </a>
+								<span><a href="#">(+800) 1234 5678 90</a></span>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="side-menu-info">
-				<div class="sidebar-menu">
-					<a class="navSidebar-button" href="#"><i class="bi bi-justify-right"></i></a>
+					<!-- end header menu -->
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Thrown Mobile Menu Area -->
-	<div class="mobile-menu-area sticky-menu" id="navbar">
+
+	<!--Mobile Menu Area -->
+	<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none ">
 		<div class="mobile-menu">
-			<div class="mobile-logo">
-				<a href="index.html"><img src="assets/img/logo2.png" width="16%" alt=""></a>
-			</div>
-			<div class="side-menu-info">
-				<div class="sidebar-menu">
-					<a class="navSidebar-button" href="#"><i class="bi bi-justify-right"></i></a>
-				</div>
-			</div>
+			<nav class="Edulin_menu">
+				<ul class="nav_scroll">
+					<li><a href="index.html" class="text-dark">Home</a></li>
+					<li><a href="#!" class="text-dark">About</a></li>
+					<li><a href="#!" class="text-dark">Pumps and MEP Works</a></li>
+
+					<li><a href="" class="text-dark">Products <i class="bi bi-plus"></i></a>
+						<div class="sub-menu">
+							<ul>
+								<li><a href="#!">Valves & Accessories</a></li>
+								<li><a href="#!">Mixers and Sanitary Accessories</a></li>
+								<li><a href="#!">Hand Tools & Equipment’s</a></li>
+								<li><a href="#!">Hardware’s & Safety Equipment’s</a></li>
+								<li><a href="#!">Pipes & Fittings</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#" class="text-dark"> Paint Products <i class="bi bi-plus"></i></a>
+						<div class="sub-menu">
+							<ul>
+								<li><a href="#!">National Paint</a></li>
+								<li><a href="#!">Asian Paint</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#!" class="text-dark">Gallery</a></li>
+				
+					<li><a href="contact.html" class="text-dark">Get In Touch</a></li>
+				</ul>
+			</nav>
 		</div>
 	</div>
 	<!--==================================================-->
-	<!-- End Thrown Header Area -->
+	<!-- End Euildint Header Style Two Area -->
 	<!--==================================================-->
 
 	<!--==================================================-->
-	<!-- Start Thrown Slider Area -->
+	<!-- Start Euildint Slider Style Two Area -->
 	<!--==================================================-->
-	<section class="banner-section style-five">
+	<section class="banner-section">
 		<div class="banner-carousel owl-carousel">
 			<div class="slide-item one">
 				<div class="image-layer" style="background-image: url('assets/img/b1.jpg');"></div>
 				<div class="container">
-					<div class="slider-content style-five">
-						<div class="slider-sub-title style-five">
-							<h4>Sustainable Solutions for you</h4>
+					<div class="slider-content style-two wow animate__slideInLeft">
+						<div class="slider-sub-title">
+							<h4>Welcome To</h4>
 						</div>
 						<div class="slider-main-title">
-							<h1>Welcome To Afreen Building</h1>
+							<h1>Afreen Building</h1>
 							<h1>Materials Trading L.L.C</h1>
 						</div>
 						<div class="slider-discripton">
-							<p>We believe our services have immensely contributed to the infrastructure development requirements of the country for the past  16 years.</p>
+							<p>We believe our services have immensely contributed to the infrastructure development requirements of the country for the past  16 years.
+							</p>
 						</div>
-						<div class="thrown-btn slider">
-							<a class="header-button" href="contact-us.html">Get A Quout <span></span></a>
+						<div class="eulding-btn">
+							<a href="#">Get A Quote <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+						</div>
+						<div class="slider-social-menu">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							</ul>
 						</div>
 					</div>
-				
 				</div>
 			</div>
 			<div class="slide-item two">
 				<div class="image-layer" style="background-image: url('assets/img/b2.jpg');"></div>
 				<div class="container">
-					<div class="slider-content style-five inner">
-						<div class="slider-sub-title style-five">
-							<h4>Trust And Client Focus</h4>
+					<div class="slider-content style-two wow animate__slideInLeft">
+						<div class="slider-sub-title">
+							<h4>Welcome To</h4>
 						</div>
 						<div class="slider-main-title">
-							<h1>Welcome To Afreen Building</h1>
+							<h1>Afreen Building</h1>
 							<h1>Materials Trading L.L.C</h1>
 						</div>
-						<div class="slider-discripton inner">
-							<p>We believe our services have immensely contributed to the infrastructure development requirements of the country for the past  16 years.</p>
+						<div class="slider-discripton">
+							<p>We believe our services have immensely contributed to the infrastructure development requirements of the country for the past  16 years.
+							</p>
 						</div>
-						<div class="thrown-btn slider">
-							<a class="header-button" href="contact-us.html">Read More <span></span></a>
+						<div class="eulding-btn">
+							<a href="#">Get A Quote <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+						</div>
+						<div class="slider-social-menu">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--==================================================-->
+	<!-- End Euildint Slider Style Two Area -->
+	<!--==================================================-->
+
+	<div class="about-area style-three wow animate__slideInUp" style="visibility: visible;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<div class="about-thumb style-two wow animate__slideInUp">
+						<img src="assets/img/img6.png" width="90%">
+						<!-- statr about counter -->
+						<div class="about-counter">
+							<div class="about-numbar">
+								<h4 class="counter">13</h4><span>+</span>
+							</div>
+							<div class="about-counter-text">
+								<h5>Years of Experience
+									</h5>
+							</div>
+						</div>
+						<!-- End about counter -->
+					</div>
+				</div>
+			
+				<div class="col-lg-6 col-md-12">
+					<div class="section-title">
+						<div class="section-shape">
+							<img src="assets/images/about/section-shape.png" alt="">
+						</div>
+						<div class="section-sub-title">
+							<h4>About Us</h4>
+						</div>
+						<div class="section-main-title about">
+							<h2>AFREEN BUILDING MATERIALS TRADING CO. L.L.C (ABMTC)</h2>
+							<h2 class="text-success">ESTABLISHED IN 2006
+							</h2>
+						</div>
+					</div>
+					<div class="about-content wow animate__slideInUp" style="visibility: visible;">
+						<div class="about-discribtion">
+							<p>Afreen Building Materials Trading Co. L.L.C (ABMTC) Established in 2006 headquartered in Abu Dhabi and 2 branches in Abu Dhabi, U.A.E. — is one of the stockiest of Paints, Mechanical, Electrical, Plumbing, Civil Construction, and Oil Field Products. A centralized distribution system, along with fully computerized operations ensures stringent quality checks and superior standards are maintained for delivery times within the schedules provided. ABMTC operates from a full-fledged showroom in Abu Dhabi, Mussafah -M/9, M/14 and SHAHAMA with branches and extensive warehousing facilities. ABMTC is constantly striving to add quality products at affordable prices.</p> <p> ABMTC is striving to ensure total customer satisfaction by providing dedicated service to all levels. We have a team of highly qualified sales professionals who are fully trained to be of service on all strategic business units. ABMTC has been associated with world-class Paint Manufacturer, Mechanical, Electrical Civil Construction, and oil field Products. We believe our services have immensely contributed to the infrastructure development requirements of the country for the past 16 years. Most of the products can be immediately supplied from our ready stock at short notice.</p>
+						</div>
+						
+						<div class="about-bottom">
+							<div class="eulding-btn about mt-3">
+								<a href="#">Read More <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<style>
-.about-thumb.style-three {
-    margin-left: 17px;
-    margin-top: 42px;
-}
-.about-thumb.style-three img {
-    width: 500px;
-}
-.contact-area {
-    background: url('assets/img/b4.png');
+		.counter-area {
+    background: url("assets/img/bg4.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment:fixed;
-	padding: 130px;
-
+    padding: 65px 51px 65px;
 }
-.mobile-menu-area {
-    background: black;
-    padding: 20px;
-}
-.team-area.style-three {
-    padding: 0px 0 122px;
+.call-do-action-area {
+    padding: 120px 0 120px;
+    background: url("assets/img/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 458px;
+    background-position: center center;
 }
 	</style>
 	<!--==================================================-->
-	<!-- End Thrown Slider Area -->
+	<!-- Start Euildint History Area -->
 	<!--==================================================-->
-	<div class="about-area style-three">
+	<div class="heistory-area animate__slideInUp">
 		<div class="container">
-			<div class="row">
+			<div class="row history-bg">
 				<div class="col-lg-6 col-md-12">
-					<div class="about-thumb style-three bounce-animate">
-						<img src="assets/img/img4.png" width="50%" alt="">
-					
-					</div>
-				
-				</div>
-				<div class="col-lg-6 col-md-12">
+					<!-- start section title -->
 					<div class="section-title">
-						<div class="section-sub-title about3">
-							<h4>About Us</h4>
+						<div class="section-shape">
+							<img src="assets/images/about/section-shape.png" alt="">
 						</div>
-						<div class="section-main-title about3">
-							<h2>AFREEN BUILDING MATERIALS TRADING CO. L.L.C (ABMTC) ESTABLISHED IN 2006</h2>
+						<div class="section-sub-title">
+							<h4>Know More</h4>
 						</div>
-					</div>
-					<div class="about-content">
-						<div class="about-discribtion style-three">
-							<p>Afreen Building Materials Trading Co. L.L.C (ABMTC) Established in 2006 headquartered in Abu Dhabi and 2 branches in Abu Dhabi, U.A.E. — is one of the stockiest of Paints, Mechanical, Electrical, Plumbing, Civil Construction, and Oil Field Products. A centralized distribution system, along with fully computerized operations ensures stringent quality checks and superior standards are maintained for delivery times within the schedules provided. ABMTC operates from a full-fledged showroom in Abu Dhabi, Mussafah -M/9, M/14 and SHAHAMA with branches and extensive warehousing facilities. ABMTC is constantly striving to add quality products at affordable prices. ABMTC is striving to ensure total customer satisfaction by providing dedicated service to all levels. We have a team of highly qualified sales professionals who are fully trained to be of service on all strategic business units. ABMTC has been associated with world-class Paint Manufacturer, Mechanical, Electrical Civil Construction, and oil field Products. We believe our services have immensely contributed to the infrastructure development requirements of the country for the past 16 years. Most of the products can be immediately supplied from our ready stock at short notice.</p>
-						</div>
-						<style>
-							.card2:hover{
-								background-color: #ea5b1b;
-								color: white;
-							}
-						</style>
-						<div class="card card2 shadow p-2 rounded-lg">
-						<div class="about-bottom">
-							<div class="about-bottom-thumb">
-								<img src="assets/img/mobile.svg" alt="">
-							</div>
-							<div class="about-bottom-title">
-								<h4>(+971) 526291735
-								</h4>
-								<span>Director</span>
-							</div>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="contact-area">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-12 col-md-12">
-					<div class="section-title contact text-center">
-						<div class="section-main-title contact">
-							<h3 class="text-white">ABMTC, is strived to be one of the most dedicated and committed supplier in the industry by upholding the values of business ethics. We adhere and adopt stringent measures to achieve the quality and workers health and safety to the international standards.
+						<div class="section-main-title">
+							<h3>ABMTC is striving to ensure total customer satisfaction by providing dedicated service to all levels.
+
 							</h3>
 						</div>
-					
-				
+					</div>
+					<!-- End section title -->
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="history-single-box">
+						<div class="history-content">
+							<h4><a href="#" class="mb-4">What We Offer</a></h4>
+								<ul>
+									<li>Electrical & HVAC</li>
+									<li>Pipes & Fitting</li>
+									<li>Valves & Accessories</li>
+									<li>Mixers & Sanitary Accessories</li>
+									<li>Hand Tools & Equipment’s</li>
+									<li>Hardware’s & Safety Equipment’s</li>
+
+								</ul>
+						</div>
 					</div>
 				</div>
 				
-			</div>
-		</div>
-	</div>
-
-
-
-	<!--==================================================-->
-	<div class="about-area style-five">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="about-thumb">
-						<img src="assets/img/img5.png" alt="">
-						<div class="about-counter-five">
-							
-							<div class="counter-five-content">
-							
-								<div class="counter-five-discription">
-									<h4 style="color: white; padding: 40px;">ABMTC is striving to ensure total customer satisfaction by providing dedicated service to all levels.
-
-									</h4>
+				<div class="col-lg-12">
+					<div class="row mt-30">
+						<div class="col-lg-4 col-md-6">
+							<div class="history-single-box">
+								<div class="history-content">
+									<h4><a href="#">We Started From 2006</a></h4>
+									<p>The experienced and well-trained commercial team performs business development, marketing & sales activities.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-12">
+							<div class="counter-area">
+								<div class="row">
+									<div class="col-lg-3 col-md-4">
+										<!-- start counter single box -->
+										<div class="counter-single-box">
+											<div class="counter-numbar">
+												<h4 class="counter">500</h4>
+												<span>+</span>
+											</div>
+											<div class="counter-content">
+												<h5>HAPPY CUSTOMERS</h5>
+											</div>
+										</div>
+										<!-- End counter single box -->
+									</div>
+									<div class="col-lg-3 col-md-4">
+										<!-- start counter single box -->
+										<div class="counter-single-box">
+											<div class="counter-numbar">
+												<h4 class="counter">50</h4>
+												<span>+</span>
+											</div>
+											<div class="counter-content">
+												<h5>BRANDS</h5>
+											</div>
+										</div>
+										<!-- End counter single box -->
+									</div>
+									<div class="col-lg-3 col-md-4">
+										<!-- start counter single box -->
+										<div class="counter-single-box">
+											<div class="counter-numbar">
+												<h4 class="counter">5</h4>
+												<span>+</span>
+											</div>
+											<div class="counter-content">
+												<h5>LOCATIONS</h5>
+											</div>
+										</div>
+										<!-- End counter single box -->
+									</div>
+									<div class="col-lg-3 col-md-4">
+										<!-- start counter single box -->
+										<div class="counter-single-box">
+											<div class="counter-numbar">
+												<h4 class="counter">40</h4>
+												<span>+</span>
+											</div>
+											<div class="counter-content">
+												<h5>STAFF</h5>
+											</div>
+										</div>
+										<!-- End counter single box -->
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="about-main-title style-two">
-						<h2>The experienced and well-trained commercial team performs business development, marketing & sales activities.
-						</h2>
-					</div>
-					<div class="about-content">
-						
-						<div class="row">
-				<div class="col-md-8 col-xl-6 mb-3">
-					<!-- start service items box -->
-					<div class="service-items-box-two">
-					
-						<div class="service-items-content-two">
-							<p class="text-dark">Electrical & HVAC.</p>
-						</div>
-					
-					</div>
-					<!-- End service items box -->
-				</div>
-				<div class="col-md-8 col-xl-6 mb-3">
-					<!-- start service items box -->
-					<div class="service-items-box-two">
-					
-						<div class="service-items-content-two">
-							<p class="text-dark">Pipes & Fitting
-								.</p>
-						</div>
-						
-					</div>
-					<!-- End service items box -->
-				</div>
-
-				<div class="col-md-8 col-xl-6 mb-3">
-					<!-- start service items box -->
-					<div class="service-items-box-two">
-					
-						<div class="service-items-content-two">
-							<p class="text-dark">Valves & Accessories
-								.</p>
-						</div>
-					
-					</div>
-					<!-- End service items box -->
-				</div>
-				<div class="col-md-8 col-xl-6 mb-3">
-					<!-- start service items box -->
-					<div class="service-items-box-two">
-					
-						<div class="service-items-content-two">
-							<p class="text-dark">Mixers & Sanitary Accessories
-								.</p>
-						</div>
-						
-					</div>
-					<!-- End service items box -->
-				</div>
-
-				<div class="col-md-8 col-xl-6 mb-3">
-					<!-- start service items box -->
-					<div class="service-items-box-two">
-					
-						<div class="service-items-content-two">
-							<p class="text-dark">Hand Tools & Equipment’s
-								.</p>
-						</div>
-					
-					</div>
-					<!-- End service items box -->
-				</div>
-				<div class="col-md-8 col-xl-6 mb-3">
-					<!-- start service items box -->
-					<div class="service-items-box-two">
-					
-						<div class="service-items-content-two">
-							<p class="text-dark">Hardware’s & Safety Equipment’s
-								.</p>
-						</div>
-					
-					</div>
-					<!-- End service items box -->
-				</div>
-				
-			</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
+	<!--==================================================-->
+	<!-- End Euildint History Area -->
+	<!--==================================================-->
 
-	<div class="team-area style-three">
+	<!--==================================================-->
+	<!-- Start Euildint Call Do Bg Area -->
+	<!--==================================================-->
+	<div class="call-do-action-area animate__slideInUp">
+	 </div>
+
+	<!--==================================================-->
+	<!-- End Euildint Call Do Bg Area -->
+	<!--==================================================-->
+
+	<div class="project-area inner-page wow animate__slideInUp">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
+					<!-- start section title -->
 					<div class="section-title text-center">
+						<div class="section-shape">
+						</div>
 						<div class="section-sub-title">
-							<h4>OUR PRODUCTS</h4>
+							<h4>LATEST PRODUCTS</h4>
 						</div>
 						<div class="section-main-title">
-							<h2>Lets See Our Products</h2>
+							<h2>Let's Checkout Our Recently </h2>
+							<h2>Added Products</h2>
 						</div>
 					</div>
+					<!-- End section title -->
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-xl-3">
-					<div class="team-items-box inner-page">
-						<div class="team-itmes-content">
-							<h4><a href="team-details.html">Valves And Accessories							</a></h4>
-						</div>
-						<div class="team-items-thumb">
-							<img src="assets/img/p1.png" alt="">
-						
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/p1.png" alt="Image 1" class="">
+						<div class="overlay">
+							<p>Valves And Accessories</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xl-3">
-					<div class="team-items-box inner-page">
-						<div class="team-itmes-content">
-							<h4><a href="team-details.html">Mixers And Sanitary Accessories
-							</a></h4>
-						</div>
-						<div class="team-items-thumb">
-							<img src="assets/img/p2.png" alt="">
-						
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/p2.png" alt="Image 2" class="">
+						<div class="overlay">
+							<p>Mixers And Sanitary Accessories</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xl-3">
-					<div class="team-items-box inner-page">
-						<div class="team-itmes-content">
-							<h4><a href="team-details.html">Pipes And<br>
-								Fittings
-								</a></h4>
-						</div>
-						<div class="team-items-thumb">
-							<img src="assets/img/p3.png" alt="">
-						
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/p3.png" alt="Image 3" class="">
+						<div class="overlay">
+							<p>Pipes And
+								Fittings</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xl-3">
-					<div class="team-items-box inner-page">
-						<div class="team-itmes-content">
-							<h4><a href="team-details.html">Hardware’s And
-								Safety Equipment’s
-								</a></h4>
-						</div>
-						<div class="team-items-thumb">
-							<img src="assets/img/p4.png" alt="">
-						
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/p4.png" alt="Image 4" class="">
+						<div class="overlay">
+							<p class="text-center">Hardware’s And
+								Safety Equipment’s</p>
 						</div>
 					</div>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</div>
 <style>
-	.contact-us-area.style-three {
-    background: url('assets/img/bg1.png');
-    padding: 88px 0 77px;
-    background-size: cover;
-    background-position: center;
+	/* Styling for the image cards */
+.image-card {
     position: relative;
-    z-index: 1;
+    overflow: hidden;
 }
-.contact-us-area.style-three::before {
+
+/* Style the curved images using Bootstrap class 'rounded-circle' */
+.image-card img {
+    transition: transform 0.2s;
+	width: 100%;
+	border-radius: 8px;
+}
+
+/* Style the overlay */
+.overlay {
     position: absolute;
-    content: "";
-    width: 50%;
-    height: 100%;
+    top: 0;
+    left: 0;
     right: 0;
-    background: url('assets/img/bg2.png');
-    background-repeat: no-repeat;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+/* Style the text inside the overlay */
+.overlay p {
+    color: #fff;
+}
+
+/* Add hover effect to the image */
+.image-card:hover img {
+    transform: scale(1.1);
+	border-radius: 8px;
+
+}
+
+/* Show the overlay on hover */
+.image-card:hover .overlay {
+    opacity: 1;
+	border-radius: 8px;
+
+}
+.contact-area {
+    background: url("assets/img/bg1.png");
     background-size: cover;
     background-position: center center;
-    top: 0;
-    z-index: -1;
+    background-repeat: no-repeat;
 }
-</style>
-	<div class="contact-us-area style-three">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6 col-md-12">
-					<div class="contact-us-items">
-						<div class="contact-us-content style-three">
-							<h4>Mission</h4>
-							<h2>Our Mission</h2>
-						</div>
-						<div class="contact-us-list">
-							<p class="text-white">ABMTC, is strived to be one of the most dedicated and committed suppliers in the industry by upholding the values of business ethics. We adhere and adopt stringent measures to achieve quality and workers. workers' health and safety to the international standards.
 
+</style>
+<br><br>
+
+
+<div class="contact-area wow animate__slideInUp" style="visibility: visible;">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-7 col-md-12">
+				<div class="section-title">
+					<div class="section-main-title contact mt-4">
+						<h2>Our Mission</h2>
+					</div>
+				</div>
+				<div class="contact-discription">
+					<p>ABMTC, is strived to be one of the most dedicated and committed suppliers in the industry by upholding the values of business ethics. We adhere and adopt stringent measures to achieve quality and workers. workers' health and safety to the international standards.
+
+					</p>
+				</div>
+				<div class="eulding-btn">
+					<a href="#">Contact Us <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+				</div>
+			</div>
+			<div class="col-lg-5 col-md-6">
+				<div class="contact-thumb wow animate__slideInRight" style="visibility: visible;">
+					<img src="assets/img/bg2.png" alt="">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!--==================================================-->
+	<!-- Start Euildint Service Style Two Area -->
+	<!--==================================================-->
+
+	<div class="project-area inner-page wow animate__slideInUp">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- start section title -->
+					<div class="section-title text-center">
+						<div class="section-shape">
+						</div>
+						<div class="section-sub-title">
+							<h4>LATEST PRODUCTS</h4>
+						</div>
+						<div class="section-main-title">
+							<h2>Let's Checkout Our Recently </h2>
+							<h2>Added Products</h2>
+						</div>
+					</div>
+					<!-- End section title -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/pr1.png" alt="Image 1" class="">
+						<div class="overlay">
+							<p>Waste Bin
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="contact-us-items-box">
-						<div class="contact-icon-thumb">
-							<img src="assets/images/resource/contact-icon.png" alt="">
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/pr2.png" alt="Image 2" class="">
+						<div class="overlay">
+							<p>Sink Mixer
+							</p>
 						</div>
-						<div class="contact-items-content">
-							<h6>Our management system complies with ISO 9001 : 2008.
-							</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/pr3.png" alt="Image 3" class="">
+						<div class="overlay">
+							<p>WC paper Holder
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="image-card">
+						<img src="assets/img/pr4.png" alt="Image 4" class="">
+						<div class="overlay">
+							<p class="text-center">Shower Head
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<center>
+				<a href="" class="btn btn-dark w-25 mt-5">View More Products</a>
+			</center>
 		</div>
 	</div>
 
 <style>
-	
-.counter-area {
-    background: url("assets/img/bg3.png");
+	.footer-area {
+    background: url("assets/img/bg1.png");
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
-    padding: 100px 0 100px;
+    padding: 109px 0 0px;
     position: relative;
+}
+.mean-container .mean-bar::before {
+    color: #fff;
+    content: "Afreen";
+    font-size: 28px;
+    font-weight: 600;
+    left: 10px;
+    position: absolute;
+    top: 18px;
 }
 </style>
-	<div class="counter-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-4">
-					<!-- start counter single box -->
-					<div class="counter-single-box">
-						<div class="counter-numbar">
-							<h4 class="counter">10</h4>
-							<span>K+</span>
-						</div>
-						<div class="counter-content">
-							<h5>Experienced designers</h5>
-							<p>Our company has 100 expert</p>
-						</div>
-					</div>
-					<!-- End counter single box -->
-				</div>
-				<div class="col-lg-3 col-md-4">
-					<!-- start counter single box -->
-					<div class="counter-single-box">
-						<div class="counter-numbar">
-							<h4 class="counter">10</h4>
-							<span>K+</span>
-						</div>
-						<div class="counter-content">
-							<h5>SATISFIED CUSTOMERS</h5>
-							<p>Our company satisfied customer</p>
-						</div>
-					</div>
-					<!-- End counter single box -->
-				</div>
-				<div class="col-lg-3 col-md-4">
-					<!-- start counter single box -->
-					<div class="counter-single-box">
-						<div class="counter-numbar">
-							<h4 class="counter">120</h4>
-							<span>+</span>
-						</div>
-						<div class="counter-content">
-							<h5>COMPLETED CASSES</h5>
-							<p>We have done 1200 Cassses</p>
-						</div>
-					</div>
-					<!-- End counter single box -->
-				</div>
-				<div class="col-lg-3 col-md-4">
-					<!-- start counter single box -->
-					<div class="counter-single-box">
-						<div class="counter-numbar">
-							<h4 class="counter">120</h4>
-							<span>+</span>
-						</div>
-						<div class="counter-content">
-							<h5>COMPLETED CASSES</h5>
-							<p>We have done 1200 Cassses</p>
-						</div>
-					</div>
-					<!-- End counter single box -->
-				</div>
-			</div>
-			
-		</div>
-	</div>
-
-
-
-	<div class="blog-area style-two">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center">
-						<div class="section-sub-title">
-							<h4>Products</h4>
-						</div>
-						<div class="section-main-title">
-							<h2>Our Other Products</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="blog-single-box style-two inner-page">
-						<div class="blog-thumb">
-							<img src="assets/img/pr1.png" alt="">
-							<div class="blog-meta-date">
-								<h5>New</h5>
-							</div>
-						</div>
-						<div class="blog-content style-two">
-							<div class="blog-meta style-two">
-								<span><i class="bi bi-bag-check-fill"></i>Product</span>
-							</div>
-							<div class="blog-title style-two">
-								<h4><a href="blog-details.html">Waste Bin</a>
-								</h4>
-							</div>
-							<div class="blog-btn style-two">
-								<a href="#">View Details <i class="bi bi-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="blog-single-box style-two inner-page">
-						<div class="blog-thumb">
-							<img src="assets/img/pr2.png" alt="">
-							<div class="blog-meta-date">
-								<h5>New</h5>
-
-							</div>
-						</div>
-						<div class="blog-content style-two inner-page">
-							<div class="blog-meta style-two">
-								<span><i class="bi bi-bag-check-fill"></i>Product</span>
-							</div>
-							<div class="blog-title style-two">
-								<h4><a href="blog-details.html">Sink Mixer
-								</a></h4>
-							</div>
-							<div class="blog-btn style-two">
-								<a href="#">View Details <i class="bi bi-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="blog-single-box style-two inner-page">
-						<div class="blog-thumb">
-							<img src="assets/img/pr3.png" alt="">
-							<div class="blog-meta-date">
-								<h5>New</h5>
-
-							</div>
-						</div>
-						<div class="blog-content style-two">
-							<div class="blog-meta style-two">
-								<span><i class="bi bi-bag-check-fill"></i>Product</span>
-							</div>
-							<div class="blog-title style-two inner">
-								<h4><a href="blog-details.html">WC paper Holder
-								</a></h4>
-							</div>
-							<div class="blog-btn style-two">
-								<a href="#">View Details <i class="bi bi-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="blog-single-box style-two">
-						<div class="blog-thumb">
-							<img src="assets/img/pr4.png" alt="">
-							<div class="blog-meta-date">
-								<h5>New</h5>
-
-							</div>
-						</div>
-						<div class="blog-content style-two">
-							<div class="blog-meta style-two">
-								<span><i class="bi bi-bag-check-fill"></i>Product</span>
-							</div>
-							<div class="blog-title style-two">
-								<h4><a href="blog-details.html">Shower Head
-								</a>
-								</h4>
-							</div>
-							<div class="blog-btn style-two">
-								<a href="#">View Details <i class="bi bi-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div><br><br>
-			<center>
-				<a href=""class="btn btn-dark">View All Products</a>
-			</center>
-		</div>
-	</div>
-	<div class="contact-area-three">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 col-md-12">
-					<div class="section-title">
-						<div class="section-sub-title contact-thrree">
-							<h4>Contact With Us</h4>
-						</div>
-						<div class="section-main-title contact-thrree">
-							<h2>Let’s Work Together?</h2>
-						</div>
-					</div>
-					<div class="contact-three-discription">
-						<p>Providing legal advice, contract drafting, compliance assistance, intellectual property
-							protection, and other legal support for businesses.</p>
-					</div>
-					<div class="contact-list">
-						<span><i class="bi bi-chevron-double-right"></i> Refreshing to get such a personal touch</span>
-						<span> <i class="bi bi-chevron-double-right"></i>Velit esse cillum dolore eu</span>
-					</div>
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
-							<div class="contact-single-box">
-								<div class="contact-icon">
-									<i class="bi bi-telephone-plus"></i>
-								</div>
-								<div class="contact-content">
-									<h5>Have Any Question?</h5>
-									<h3>+ 014x4531 9504</h3>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="contact-single-box">
-								<div class="contact-icon">
-									<i class="bi bi-envelope"></i>
-								</div>
-								<div class="contact-content">
-									<h5>Send Email</h5>
-									<h3>example@gmail.com</h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12">
-					<div class="contact-box">
-						<div class="contact-title">
-							<h4>Contact Us</h4>
-						</div>
-						<form action="https://formspree.io/f/myyleorq" method="post" id="it-form">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="form-box">
-										<input type="text" name="name" placeholder="Your Name">
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form-box">
-										<input type="text" name="email" placeholder="Your Email">
-									</div>
-								</div>
-							
-								<div class="col-lg-12">
-									<div class=" ">
-										<button class="btn btn-dark w-100" type="Submit">Submit</button>
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<style>
-.footer-area {
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 104px 0 0px;
-    position: relative;
-}
-.contact-box {
-    border-radius: 10px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.10);
-    padding: 63px 55px 82px;
-    text-align: center;
-    margin-top: -58px;
-    position: relative;
-}
-	</style>
+	
 
 	<!--==================================================-->
-	<!-- Start Thrown Sidebar Area -->
-	<!--==================================================-->
-	<div class="sidebar-group info-group">
-		<div class="sidebar-widget">
-			<div class="sidebar-widget-container">
-				<div class="widget-heading">
-					<a href="#" class="close-side-widget">
-						<i class="bi bi-x-lg"></i>
-					</a>
-				</div>
-				<div class="sidebar-textwidget">
-					<div class="sidebar-info-contents">
-						<div class="content-inner">
-							<div class="sidebar-logo">
-								<a href="index.html"><img src="assets/img/logo2.png" alt="logo"></a>
-							</div>
-							<div class="sidebar-widget-menu">
-								<ul>
-									<li class="dropdown"><a href="index.html" data-toggle="dropdown">Home</a></li>
-									<li class="dropdown"><a href="about.html" data-toggle="dropdown">About</a></li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Products <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="#!">Valves & Accessories</a></li>
-										<li><a href="#!">Mixers and Sanitary Accessories</a></li>
-										<li><a href="#!">Hand Tools &amp; Equipment’s</a></li>
-										<li><a href="#!">Hardware’s &amp; Safety Equipment’s</a></li>
-										<li><a href="#!">Pipes &amp; Fittings</a></li>
-
-										  </ul>
-									</li>
-
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Paint Products <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="#!">National Paint</a></li>
-										<li><a href="#!">Asian Paint</a></li>
-										  </ul>
-									</li>
-
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Stores <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="#!">Showroom</a></li>
-											<li><a href="#!">Warehouse</a></li>
-											<li><a href="#!">Asian paints showroom</a></li>
-											<li><a href="#!">National paints showroom</a></li>
-											<li><a href="#!">Showroom</a></li>
-										  </ul>
-									</li>
-								
-									<li class="dropdown"><a href="#" data-toggle="dropdown">More <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="#!">Pumps and MEP Works</a></li>
-										<li><a href="#!">Gallery</a></li>
-										  </ul>
-									</li>
-
-
-									<li class="dropdown"><a href="contact-us.html" data-toggle="dropdown">Contact</a></li>
-								</ul>
-							</div>
-							<!-- <div class="contact-info">
-								<h2>Contact Info</h2>
-								<ul class="list-style-one">
-									<li><i class="bi bi-geo-alt-fill"></i>6391 Elgin St. Celina, Delaware</li>
-									<li><i class="bi bi-telephone-fill"></i>(+001) 123-456-789</li>
-									<li><i class="bi bi-envelope"></i> info@example.com</li>
-									<li><i class="bi bi-alarm-fill"></i> Week Days: 08.00 to 10.00
-									</li>
-								</ul>
-							</div> -->
-							<ul class="social-box">
-								<li class="facebook"><a href="#" class="fab fa-facebook-f"></a></li>
-								<li class="twitter"><a href="#" class="fab fa-instagram"></a></li>
-								<li class="linkedin"><a href="#" class="fab fa-twitter"></a></li>
-								<li class="instagram"><a href="#" class="fab fa-pinterest-p"></a></li>
-								<li class="youtube"><a href="#" class="fab fa-linkedin-in"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Thrown Sidebar Area -->
-	<!--==================================================-->
-
-	<!--==================================================-->
-	<!-- Start Thrown Footer Area -->
+	<!-- Start Euildint Footer Area -->
 	<!--==================================================-->
 	<div class="footer-area">
 		<div class="container">
-			<div class="row gx-6">
+			<div class="row">
 				<div class="col-lg-3 col-md-6">
-					<div class="footer-wiget">
+					<div class="footer-wiget wow animate__zoomIn" style="visibility: visible;">
 						<div class="footer-wiget-log">
-							<a href="index.html"><img src="assets/img/logo.svg" width="50%" alt=""></a>
+							<a href="index.html"><img src="assets/img/logo1.png" width="100%" alt=""></a>
 						</div>
 						<div class="footer-wiget-text">
-							<h4>AFREEN BUILDING MATERIALS TRADING CO. L.L.C </h4>
+							<p>We believe our services have immensely contributed to the infrastructure development requirements of the country for the past  16 years.</p>
 						</div>
-						<!-- <div class="footer-shape-title">
-							<h3>Discover our app</h3>
-						</div>
-						<div class="footer-wiget-shape">
-							<img src="assets/images/footer/Google-Play.png" alt="">
-						</div>
-						<div class="footer-wiget-shape">
-							<img src="assets/images/footer/Play-Store.png" alt="">
-						</div> -->
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-wiget">
-						<div class="footer-wiget-title">
-							<h4>Links</h4>
-						</div>
-						<div class="footer-wiget-menu">
+						<div class="footer-wiget-social">
 							<ul>
-								<li><a href="#"> About us</a></li>
-								<li><a href="#"> Products</a></li>
-								<li><a href="#"> Paint Products</a></li>
-								<li><a href="#"> Stores</a></li>
-								<li><a href="#"> Contact</a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="footer-wiget">
+					<div class="footer-wiget wow animate__slideInDown" style="visibility: visible;">
 						<div class="footer-wiget-title">
 							<h4>Our Product Links							</h4>
 						</div>
 						<div class="footer-wiget-menu">
 							<ul>
-								<li><a href="#"> MEP Works</a></li>
-								<li><a href="#"> Pipes & Fittings</a></li>
-								<li><a href="#"> Valves & Accessories</a></li>
-				</ul>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> MEP Works</a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Pipes & Fittings</a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Valves & Accessories</a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Mixers & Sanitary Accessories</a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Hand Tools & Equipment’s</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-wiget wow animate__slideInDown" style="visibility: visible;">
+						<div class="footer-wiget-title">
+							<h4>Useful Links</h4>
+						</div>
+						<div class="footer-wiget-menu">
+							<ul>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Home </a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> About Us </a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Products</a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Careers</a></li>
+								<li><a href="#"><i class="bi bi-chevron-double-right"></i> Contacts</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 pr-0">
 					<div class="foter-box">
-						<div class="footer-wiget-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-							</ul>
+						<div class="footer-wiget-title">
+							<h4>Our Products</h4>
 						</div>
-						<div class="footer-widget-contct-menu">
-							<ul>
-								<li><a href="#">( 800 ) 160-616481</a></li>
-								<li class="line"><a href="#">example@gmail.com</a></li>
-								<li><a href="#">P.O. Box: 35417, M9 -
-									Mussafah Abu Dhabi -UAE</a></li>
-							</ul>
+						<div class="row">
+							<div class="col-lg-4 col-sm-4">
+								<div class="footer-recent-thumb">
+									<img src="assets/img/p1.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4">
+								<div class="footer-recent-thumb">
+									<img src="assets/img/p2.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4">
+								<div class="footer-recent-thumb">
+									<img src="assets/img/p3.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4">
+								<div class="footer-recent-thumb">
+									<img src="assets/img/p4.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4">
+								<div class="footer-recent-thumb">
+									<img src="assets/images/footer/f-recent5.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4">
+								<div class="footer-recent-thumb">
+									<img src="assets/images/footer/f-recent6.png" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row align-items-center mt-100">
+			<div class="row mt-110">
 				<div class="col-lg-6 col-md-12">
 					<div class="copyright-text">
-						<p>Copyright © <a href="#">Afreen</a> All Rights Reserved. Designed By VectorCrop</p>
+						<p>Copyright ©<a href="#">Afreen</a>All Rights Reserved.</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="footer-condition">
 						<ul>
-							<li><a href="#">Terms of use</a></li>
-							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Setting & privacy</a></li>
+							<li><a href="#">Faqs</a></li>
+							<li><a href="#">Support</a></li>
 						</ul>
 					</div>
 				</div>
@@ -1017,7 +826,7 @@
 		</div>
 	</div>
 	<!--==================================================-->
-	<!-- End Thrown Footer Area -->
+	<!-- End Euildint Footer Area -->
 	<!--==================================================-->
 
 
@@ -1025,8 +834,7 @@
 	<!-- Start Search Popup Area -->
 	<!--==================================================-->
 	<div class="search-popup">
-		<button class="close-search style-two"><span class="flaticon-multiply"><i
-					class="far fa-times-circle"></i></span></button>
+		<button class="close-search style-two"><span class="flaticon-multiply"><i class="far fa-times-circle"></i></span></button>
 		<button class="close-search"><i class="fas fa-arrow-up"></i></button>
 		<form method="post" action="#">
 			<div class="form-group">
@@ -1043,7 +851,7 @@
 	<!-- Start scrollup section Area -->
 	<!--==================================================-->
 	<!-- scrollup section -->
-	<div class="scroll-area">
+	 <div class="scroll-area">
 		<div class="top-wrap">
 			<div class="go-top-btn-wraper">
 				<div class="go-top go-top-button">
@@ -1088,6 +896,9 @@
 	<!--  animated-text js -->
 	<script src="assets/js/animated-text.js"></script>
 
+	<!-- Slick Slider -->
+	<script src="assets/slick/slick.min.js"></script>
+
 	<!-- venobox min js -->
 	<script src="venobox/venobox.min.js"></script>
 
@@ -1109,25 +920,3 @@
 </body>
 
 </html>
-
-
-<style>
-	@media only screen and (min-width: 320px) and (max-width: 479px){
-.about-thumb.style-three img {
-    width: 70%;
-	margin-right: 90px;
-}
-.contact-area {
-	padding: 30px;
-	font-size: 14px;
-
-}
-.about-counter-five{
-	display: none;
-}
-.contact-box {
-
-    margin-top: 8px;
-}
-	}
-</style>

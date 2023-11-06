@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-    content: '1';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '';
+    content: '→';
 }
 
 .slick-next
@@ -106,29 +106,11 @@
 }
 .slick-next:before
 {
-    content: '1';
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '2';
-}
-
-.slick-prev
-{
-    right: -25px;
-}
-[dir='rtl'] .slick-next
-{
-    right: auto;
-    left: -25px;
-}
-.slick-next:before
-{
-    content: '1';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '3';
+    content: '←';
 }
 
 /* Dots */
